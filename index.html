@@ -16,16 +16,17 @@
 	<link href="css/materialize-social.css" rel="stylesheet">
 </head>
 <body>
-	<div class="fixed-action-btn horizontal click-to-toggle">
-		<a class="btn-floating btn-large blue">
+	<div class="fixed-action-btn horizontal">
+		<a class="btn-floating btn-large blue" id="move-down">
 			<i class="large material-icons">menu</i>
 		</a>
 		<ul>
-			<li><a class="btn-floating blue darken-3"><i class="fa fa-folder"></i></a></li>
-			<li><a class="btn-floating blue darken-3"><i class="fa fa-info"></i></a></li>
+			<li><a class="btn-floating blue darken-3" href="#home"><i class="fa fa-home"></i></a></li>
+			<li><a class="btn-floating blue darken-3" href="#about"><i class="fa fa-info"></i></a></li>
+			<li><a class="btn-floating blue darken-3" href="#portfolio"><i class="fa fa-folder"></i></a></li>
 		</ul>
 	</div>
-	<div class="page valign-wrapper">
+	<div class="page valign-wrapper" id="home">
 		<div class="center-block home-info row">
 			<div class="section">
 				<h1 class="full-name">Akash Saravanan</h1>
@@ -47,15 +48,80 @@
 				<a class="waves-effect waves-light btn-floating btn-large social facebook" href="https://www.facebook.com/Akash.S1997" target="_blank">
 					<i class="fa fa-facebook"></i>
 				</a>
+				<span>&nbsp;&nbsp;</span>
 				<a class="waves-effect waves-light btn-floating btn-large social github" href="https://github.com/akashsara" target="_blank">
 					<i class="fa fa-github"></i>
 				</a>
+				<span>&nbsp;&nbsp;</span>
 				<a class="waves-effect waves-light btn-floating btn-large social pinterest" href="mailto:akashsara@outlook.com" target="_blank">
 					<i class="material-icons">email</i>
 				</a>
+				<span>&nbsp;&nbsp;</span>
 				<a class="waves-effect waves-light btn-floating btn-large social linkedin" href="https://www.linkedin.com/in/akashsara/" target="_blank">
 					<i class="fa fa-linkedin"></i>
 				</a>
+			</div>
+		</div>
+	</div>
+	<div class="page" id="about">
+		<div class="center-block white-text row">
+			<div class="section">
+				<h1>About Me</h1>
+			</div>
+			<div class="section col s10 offset-s1 m8 offset-m2">
+				<div class="divider"></div>
+				<p class="flow-text text-justify">My name is Akash Saravanan. For 4 years, I was stranded in college with only one goal -- to code. But to do so, I can't be the C programmer I once was. I must become someone else. I must become something else.</p>
+			</div>
+		</div>
+	</div>
+	<div class="page" id="portfolio">
+		<div class="center-block white-text row">
+			<div class="section">
+				<h1>My Work</h1>
+			</div>
+			<div class="col s10 offset-s1 row">
+				<div class='col s12 m4'>
+					<div class="card">
+						<div class="card-image waves-effect waves-block waves-light">
+							<img class="activator" src="css/images/tsm.jpg">
+						</div>
+						<div class="card-content">
+							<span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+						</div>
+						<div class="card-reveal">
+							<span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+							<p>Here is some more information about this product that is only revealed once clicked on.</p>
+						</div>
+					</div>
+			  	</div>
+				<div class='col s12 m4'>
+					<div class="card">
+						<div class="card-image waves-effect waves-block waves-light">
+							<img class="activator" src="css/images/tsm.jpg">
+						</div>
+						<div class="card-content">
+							<span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+						</div>
+						<div class="card-reveal">
+							<span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+							<p>Here is some more information about this product that is only revealed once clicked on.</p>
+						</div>
+					</div>
+				</div>
+				<div class='col s12 m4'>
+					<div class="card">
+						<div class="card-image waves-effect waves-block waves-light">
+							<img class="activator" src="css/images/tsm.jpg">
+						</div>
+						<div class="card-content">
+							<span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+						</div>
+						<div class="card-reveal">
+							<span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+							<p>Here is some more information about this product that is only revealed once clicked on.</p>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -63,8 +129,9 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
 	<!-- Compiled and minified JQuery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script>window.jQuery || document.write("<script src="../../assets/js/vendor/jquery.min.js"><\/script>")</script>
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"
+			integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+			crossorigin="anonymous"></script>
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>
 	<!-- Custom scripts -->
