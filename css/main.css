@@ -1,6 +1,7 @@
 body {
     text-align: center;
-    background: url('images/background.jpg');
+    /*Credits to subtlepatterns.com for background*/
+    background: url('images/dark-triangles.png') black;
 }
 
 h1 {
@@ -23,6 +24,7 @@ h1 {
 .text-justify {
     text-align: justify;
 }
+
 /*Home Specific*/
 .home-info {
     color: white;
@@ -30,6 +32,13 @@ h1 {
 
 .designation {
     margin: 0 auto;
+}
+
+/*About Specific*/
+.now-reading {
+    color: inherit;
+    text-decoration: underline;
+    text-decoration-style: dotted;
 }
 
 /*Mobile*/
