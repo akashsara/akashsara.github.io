@@ -1,7 +1,10 @@
 body {
     text-align: center;
-    /*Credits to subtlepatterns.com for background*/
-    background: url('images/dark-triangles.png') black;
+    /*Credits to subtlepatterns.com for background
+    background: url('images/dark-triangles.png') black;*/
+	/*Background: https://www.pexels.com*/
+	background: url('images/bg.jpg') black;
+	background-position: center; 
 }
 
 h1 {
