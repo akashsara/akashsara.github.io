@@ -1,52 +1,237 @@
 body {
-    text-align: center;
-    /*Credits to subtlepatterns.com for background
-    background: url('images/dark-triangles.png') black;*/
-	/*Background: https://www.pexels.com*/
-	background: url('images/bg.jpg') black;
-	background-position: center; 
+	font-family: 'Libre Franklin', sans-serif;
+	padding: 0;
+	margin: 0;
+	height: 100vh;
 }
 
-h1 {
-    margin-bottom: 0;
+/* Grid Starts Here */
+
+.wrapper {
+	display: grid;
+	grid-template-columns: 10fr;
+	grid-template-rows: repeat(3, 100%);
+	grid-template-areas:
+		"name"
+		"about"
+		"projects"
+		"contact";
+	height: 100%;
 }
 
-.page {
-    height: 100vh;
+.item {
+	display: grid;
 }
 
-.break-on-mobile {
-    display: none;
+/* Grid Wrappers */
+
+.name-wrapper {
+	grid-area: name;
+	background-color: #272727;
+	color: #14A76C;
+	align-items: center;
+	justify-items: center;
+	text-align: center;
 }
 
-.divider {
-    height: 2px;
-    background-color: white;
+.about-wrapper {
+	grid-area: about;
+	background-color: #14A76C;
+	color: #272727;
+	align-items: center;
+	justify-items: center;
 }
 
-.text-justify {
-    text-align: justify;
+.projects-wrapper {
+	grid-area: projects;
+	background-color: #272727;
+	color: #14A76C;
 }
 
-/*Home Specific*/
-.home-info {
-    color: white;
+.contact-wrapper {
+	grid-area: contact;
+	background-color: #14A76C;
+	color: #272727;
+	grid-template-areas: 
+		"head head head head"
+		"mail resume github linkedin";
+	align-items: center;
+	justify-items: center;
+	text-align: center;
 }
 
-.designation {
-    margin: 0 auto;
+.project-one {
+	grid-area: one;
 }
 
-/*About Specific*/
-.now-reading {
-    color: inherit;
-    text-decoration: underline;
-    text-decoration-style: dotted;
+.project-two {
+	grid-area: two;
 }
 
-/*Mobile*/
-@media screen and (max-width: 580px){
-    .break-on-mobile {
-        display: block;
-    }
+.project-three {
+	grid-area: three;
+}
+
+.contact-header {
+	grid-area: head;
+	font-size: 4vmax;
+	font-weight: bold;
+}
+
+.contact-mail {
+	grid-area: mail;
+	background-color: #e3e3e3;
+	height: 100%;
+}
+
+.contact-resume {
+	grid-area: resume;
+	background-color: #abcdef;
+	height: 100%;
+}
+
+.contact-github {
+	grid-area: github;
+	background-color: #767676;
+	height: 100%;
+}
+
+.contact-linkedin {
+	grid-area: linkedin;
+	background-color: #007bb6;
+	height: 100%;
+}
+
+/* End Wrappers */
+
+.icon {
+	max-width: 40%;
+}
+
+.icon:hover {
+	transform: rotate3d(0, 1, 0, 360deg);
+	transition: 2s;
+}
+
+.name {
+	font-size: 6vmax;
+}
+
+.name:hover {
+	background-color: #14A76C;
+	color: #272727;
+	transition: 0.5s;
+}
+
+.title {
+	font-size: 2vmax;
+}
+
+.about {
+	font-size: 1.75vmax;
+	padding: 10vmin;
+	text-align: justify;
+}
+
+.projects-text > a {
+	color: #14A76C;
+}
+
+.projects-text > a:hover {
+	background-color: #14A76C;
+	color: #272727;
+}
+
+.projects-text {
+	font-size: 1.75vmax;
+	padding: 10vmin 0 0 0;
+	text-align: center;
+}
+
+.projects {
+	display: grid;
+	grid-template-areas: "one two three";
+	justify-items: center;
+	grid-gap: 10px
+}
+
+.project-image {
+	border: 3px solid black;
+	border-radius: 10px;
+	width: 400px;
+	max-width: 100%;
+}
+
+.project-image:hover {
+	box-shadow: 0 0 10px rgba(33,33,33,.4); 
+}
+
+/* Helper Classes */
+
+.bold {
+	font-weight: 800;
+}
+
+.italic {
+	font-style: italic;
+}
+
+
+/* Mobile Responsive Stuff */
+
+@media screen and (max-width: 1386px) {
+	.project-image {
+		width: 250px;
+	}
+	
+	
+	.name {
+		font-size: 8vmax;
+	}
+
+	.title {
+		font-size: 3vmax;
+	}
+
+	.about {
+		font-size: 2.5vmax;
+	}
+
+	.projects-text {
+		font-size: 2.5vmax;
+	}
+}
+
+
+@media screen and (max-width: 800px) {
+	
+	.wrapper {
+		grid-template-columns: 1fr;
+		grid-template-rows: 1fr;
+		grid-template-areas:
+			"name"
+			"about"
+			"projects"
+			"contact";
+		height: auto;
+	}
+	
+	.name {
+		font-size: 7vmax;
+	}
+	
+	.projects-wrapper {
+		grid-template-rows: 1fr 1.5fr;
+	}
+	
+	.project-image {
+		width: 150px;
+	}
+	
+	.contact-wrapper {
+		grid-template-areas:
+			"head head"
+			"mail resume"
+			"github linkedin";
+	}
 }
