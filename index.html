@@ -1,102 +1,176 @@
 <!DOCTYPE html>
-<!-- 
-Not really satisfied with this but I really ought to get to doing other work so yeah.
-What are you looking at? Why are you even here? Why is anyone here?
--->
 <html lang="en">
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	<meta name="author" content="Akash Saravanan">
 	<title>Akash Saravanan</title>
-
+	<!-- Material Icons -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<!-- Compiled and minified CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css" />
 	<!-- Custom style -->
 	<link href="css/main.css" rel="stylesheet">
-	<!-- Fonts from Google Fonts -->
-	<link href="https://fonts.googleapis.com/css?family=Libre+Franklin" rel="stylesheet"> 
+	<link href="css/materialize-social.css" rel="stylesheet">
 </head>
 <body>
-	<div class="wrapper">	
-		<div class="item name-wrapper" id="name-wrapper">
-			<p>
-				<span class="name">
-					<span class="bold">AKASH</span> SARAVANAN
-				</span>
-				<br />
-				<span class="title">
-					Final Year Undergraduate Student at SVCE
-					<br />
-					Chair, SVCE ACM Student Chapter
-					<br />
-					Developer | Quizzer | Gamer
-				</span>
-			</p>
-		</div>
-		<div class="item about-wrapper" id="about-wrapper">
-			<p class="about">
-				Oh hello there. Nice to know you're reading this. If we know each other, just message me, I'd love to chat! If we don't, lemme tell you a bit about myself. 
-				<br />
-				Coding is fun and I like learning new things. Even though I know computers, I still believe that they run on magic. My interests lie in Artificial Intelligence & Data Analytics. And while I don't know much about security, I still find it fascinating. I'm always working on something or the other, and I love all things Python.
-				<br />
-				But enough about coding. You can check out my resume and GitHub for more information. So, what else do I do? Well, I love quizzing. Though nowadays I conduct more quizzes than I participate in. I also love reading. Mostly just fantasy with a little sci-fi peppered in. I'd mention what I'm currently reading but I don't want to update this site <span class="italic">that</span> frequently. I'm a big fan of the Wheel of Time and my IGN is inspired by that. Speaking of which, I love gaming. I usually play League of Legends, though I do love playing a bit of Civilization & X-COM. While I'm not too big on movies, I gobble up TV shows. If it has superheros, I probably watch it.
-				<br />				
-				But enough about me. What's up with you? Reach out to me if you have any questions or just wanna talk. 
-			</p>
-		</div>
-		<div class="item projects-wrapper" id="projects-wrapper">
-			<p class="projects-text">
-				Here's a couple of my favorite personal projects. Check out my <a href="https://github.com/akashsara" target="_blank">GitHub</a> profile for all of them.
-			</p>
-			<div class="projects">
-				<div class="project project-one">
-					<a href="https://github.com/akashsara/emotion-recognition" target="_blank">
-						<img class="project-image" src="images/fer.png" />
-					</a>
-				</div>
-				<div class="project project-two">
-					<a href="https://github.com/akashsara/whatsapp-message-analysis" target="_blank">
-						<img class="project-image" src="images/whatsapp.png" />
-					</a>
-				</div>
-				<div class="project project-three">
-					<a href="https://github.com/akashsara/reddit-comment-analysis-bot" target="_blank">
-						<img class="project-image" src="images/reddit.png" />
-					</a>
-				</div>
+	<div class="navbar-fixed">
+		<nav class="nav-center hide-on-small-and-down">
+			<div class="nav-wrapper">
+				<ul class="">
+					<li><a class="nav-item" href="#home">Home</a></li>
+					<li><a class="nav-item" href="#about">About Me</a></li>
+					<li><a class="nav-item" href="#portfolio">Portfolio</a></li>
+				</ul>
 			</div>
-		</div>
-		<div class="item contact-wrapper" id="contact-wrapper">
-			<div class="contact-header">
-				Get In Touch
+			<div class="divider"></div>
+		</nav>
+	</div>
+	
+	<div class="page valign-wrapper scrollspy" id="home">
+		<div class="center-block home-info row">
+			<div class="section">
+				<h1 class="full-name">Akash Saravanan</h1>
 			</div>
-			<div class="contact-mail">
-				<a href="mailto:akashsara@outlook.com">
-					<img class="icon email-icon" src="images/mail.png" />
+			<div class="divider"></div>
+			<div class="section">
+				<h5 class="designation">
+					Developer
+					<br class="break-on-mobile" />
+					<span class="hide-on-small-only">|</span>
+					Data Science Enthusiast
+					<br class="break-on-mobile" />
+					<span class="hide-on-small-only">|</span>
+					Quizzer
+				</h5>
+			</div>
+			<div class="divider"></div>
+			<div class="section center-align">
+				<a class="waves-effect waves-light btn-floating btn-large social facebook animated rotateIn" href="https://www.facebook.com/Akash.S1997" target="_blank">
+					<i class="fa fa-facebook"></i>
 				</a>
-			</div>
-			<div class="contact-resume">
-				<a href="files/Akash Saravanan Resume.pdf">
-					<!-- Resume Icon by Stephen Borengasser from the Noun Project -->
-					<img class="icon resume-icon" src="images/resume.png" />
+				<span>&nbsp;&nbsp;</span>
+				<a class="waves-effect waves-light btn-floating btn-large social github animated rotateIn" href="https://github.com/akashsara" target="_blank">
+					<i class="fa fa-github"></i>
 				</a>
-			</div>
-			<div class="contact-github">
-				<a href="https://github.com/akashsara" target="_blank">
-					<img class="icon github-icon" src="images/github.png" />
+				<span>&nbsp;&nbsp;</span>
+				<a class="waves-effect waves-light btn-floating btn-large social reddit animated rotateIn" href="docs/Akash Saravanan.pdf" target="_blank">
+					<i class="material-icons">insert_drive_file</i>
 				</a>
-			</div>
-			<div class="contact-linkedin">
-				<a href="https://www.linkedin.com/in/akashsara/" target="_blank">
-					<img class="icon linkedin-icon" src="images/linkedin.png" />
+				<span>&nbsp;&nbsp;</span>
+				<a class="waves-effect waves-light btn-floating btn-large social pinterest animated rotateIn" href="mailto:akashsara@outlook.com" target="_blank">
+					<i class="material-icons">email</i>
+				</a>
+				<span>&nbsp;&nbsp;</span>
+				<a class="waves-effect waves-light btn-floating btn-large social linkedin animated rotateIn" href="https://www.linkedin.com/in/akashsara/" target="_blank">
+					<i class="fa fa-linkedin"></i>
 				</a>
 			</div>
 		</div>
 	</div>
+	
+	<div class="page">
+		<div class="center-block white-text row">
+			<div class="section scrollspy" id="about">
+				<h1>About Me</h1>
+			</div>
+			<div class="section col s10 offset-s1 m8 offset-m2">
+				<div class="divider"></div>
+				<p class="flow-text text-justify scrollFadeIn about-main">
+				<span class="hide-on-small-only">
+				<span class="general-kenobi"></span> Nice to know you're reading this. If we know each other, just message me, I'd love to chat! If we don't, lemme tell you a bit about myself. <br />
+				</span>
+				So as you may know, seeing as you are on this site, my name is Akash Saravanan. I'm currently a final year Computer Science student at <a href="https://en.wikipedia.org/wiki/Sri_Venkateswara_College_of_Engineering" target="_blank">SVCE</a>. I'm also the Chairman of the <a href="svce.acm.org" target="_blank">SVCE ACM Student Chapter</a>, so hit me up if you wanna do something cool. <span class="coding"></span> and I like learning new things. <span class="hide-on-small-only">Even though I know computers, I still believe that they run on magic. Think about it. Just a bunch of on-off switches somehow lets me play video games with people across the world? Magic. <br /></span>
+				My interests lie in Artificial Intelligence & Data Analytics. <span class="hide-on-small-only">And while I don't know much about security, I still find it fascinating and like to be caught up on that frontier as well. </span>I'm always working on something or the other, and I love all things Python. But enough about coding. You can check out my <a href="docs/Akash Saravanan.pdf">resume</a> and <a href="https://github.com/akashsara" target="_blank">GitHub</a> for more information. <br />
+				So, what else do I do? Well, I love quizzing. Though nowadays I conduct more quizzes than I participate in. I also love reading. Mostly just fantasy with a little sci-fi peppered in. <span class="hide-on-small-only">I'd mention what I'm currently reading but I don't want to update this site every couple of days. </span>I'm a big fan of the Wheel of Time and my <span class="gamer-mode">IGN</span> is inspired by that. Speaking of which, I love gaming. I usually play League of Legends, though I do love playing a bit of Civilization & X-COM. While I'm not too big on movies, I gobble up TV shows. If it has superheros, I probably watch it.<br />
+				But enough about me. What's up with you? Reach out to me if you have any questions or just wanna talk. <br />
+				P.S. I have a couple of <span class="hint"></span> hidden around here because I was inspired by <span class="arjun"></span>.
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="page">
+		<div class="center-block white-text row">
+			<div class="section scrollspy" id="portfolio">
+				<h1>Portfolio</h1>
+			</div>
+			<div class="col s10 offset-s1 row">
+				<div class='col s12 m4 fadeInBox'>
+					<div class="card sticky-action">
+						<div class="card-image waves-effect waves-block waves-light">
+							<img class="activator reddit-image" src="images/reddit.png">
+						</div>
+						<div class="card-content">
+							<span class="card-title activator grey-text text-darken-4 reddit-title">Reddit Comment Analysis Bot<i class="material-icons right">more_vert</i></span>
+						</div>
+						<div class="card-reveal">
+							<span class="card-title grey-text text-darken-4 reddit-reveal-title">Reddit Comment Analysis Bot<i class="material-icons right">close</i></span>
+							<p class="black-text text-justify reddit-text">
+							Designed a Reddit bot using Python that analyzes a user’s comment history and displays a graph of their most used words and a chart of the user’s activity on a subreddit.
+							</p>
+						</div>
+						<div class="card-action">
+							<a href="https://github.com/akashsara/reddit-comment-analysis-bot" target="_blank" class="blue-text reddit-link">Check it out.</a>
+						</div>
+					</div>
+			  	</div>
+				<div class='col s12 m4 fadeInBox'>
+					<div class="card sticky-action">
+						<div class="card-image waves-effect waves-block waves-light">
+							<img class="activator fer-image" src="images/fer.png">
+						</div>
+						<div class="card-content">
+							<span class="card-title activator grey-text text-darken-4 fer-title">Facial Emotion Recognition<i class="material-icons right">more_vert</i></span>
+						</div>
+						<div class="card-reveal">
+							<span class="card-title grey-text text-darken-4 fer-reveal-title">Facial Emotion Recognition<i class="material-icons right">close</i></span>
+							<p class="black-text text-justify fer-text">
+							Developed a research project to identify the facial emotion of users. Managed to achieve an accuracy of 60% and presented the paper at AICV'18.
+							</p>
+						</div>
+						<div class="card-action">
+							<a href="https://github.com/akashsara/emotion-recognition" target="_blank" class="blue-text fer-link">Check it out.</a>
+						</div>
+					</div>
+				</div>
+				<div class='col s12 m4 fadeInBox'>
+					<div class="card sticky-action">
+						<div class="card-image waves-effect waves-block waves-light">
+							<img class="activator whatsapp-image" src="images/whatsapp.png">
+						</div>
+						<div class="card-content">
+							<span class="card-title activator grey-text text-darken-4 whatsapp-title">WhatsApp Chat Analyzer<i class="material-icons right">more_vert</i></span>
+						</div>
+						<div class="card-reveal">
+							<span class="card-title grey-text text-darken-4 whatsapp-reveal-title">WhatsApp Chat Analyzer<i class="material-icons right">close</i></span>
+							<p class="black-text text-justify whatsapp-text">
+							Designed a Python script to analyze a Whatsapp Group and generate charts of the most active users, the commonly used words and a histogram of daily activity.
+							</p>
+						</div>
+						<div class="card-action">
+							<a href="https://github.com/akashsara/whatsapp-message-analysis" target="_blank" class="blue-text whatsapp-link">Check it out.</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
 	<!-- core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
+	<!-- Compiled and minified JQuery -->
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"
+			integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+			crossorigin="anonymous"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+	<!-- Scrol reveal -->
+	<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
 	<!-- Custom scripts -->
-    <!--<script src="scripts/scripts.js"></script>-->
+    <script src="scripts/scripts.js"></script>
     <!--
     ================================================== -->
 	</body>

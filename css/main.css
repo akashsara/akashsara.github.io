@@ -1,237 +1,110 @@
 body {
-	font-family: 'Libre Franklin', sans-serif;
-	padding: 0;
-	margin: 0;
-	height: 100vh;
+    text-align: center;
+    /*Credits to subtlepatterns.com for background*/
+    background: url('images/darkness.png') black;
 }
 
-/* Grid Starts Here */
-
-.wrapper {
-	display: grid;
-	grid-template-columns: 10fr;
-	grid-template-rows: repeat(3, 100%);
-	grid-template-areas:
-		"name"
-		"about"
-		"projects"
-		"contact";
-	height: 100%;
+h1 {
+    margin-bottom: 0;
 }
 
-.item {
-	display: grid;
+.page {
+    min-height: 100vh;
 }
 
-/* Grid Wrappers */
-
-.name-wrapper {
-	grid-area: name;
-	background-color: #272727;
-	color: #14A76C;
-	align-items: center;
-	justify-items: center;
-	text-align: center;
+.break-on-mobile {
+    display: none;
 }
 
-.about-wrapper {
-	grid-area: about;
-	background-color: #14A76C;
-	color: #272727;
-	align-items: center;
-	justify-items: center;
+.divider {
+    height: 2px;
+    background-color: white;
 }
 
-.projects-wrapper {
-	grid-area: projects;
-	background-color: #272727;
-	color: #14A76C;
+/*Navbar Stuff*/
+
+nav {
+	background-color: rgba(0,0,0,0.3);
 }
 
-.contact-wrapper {
-	grid-area: contact;
-	background-color: #14A76C;
-	color: #272727;
-	grid-template-areas: 
-		"head head head head"
-		"mail resume github linkedin";
-	align-items: center;
-	justify-items: center;
-	text-align: center;
+.nav-item {
+	font-size: 2em;
 }
 
-.project-one {
-	grid-area: one;
+/* 
+To center links in nav
+https://stackoverflow.com/questions/38964113/how-can-i-create-a-navbar-with-center-aligned-links-using-materialize 
+*/
+nav.nav-center ul {
+    text-align: center;
+}
+nav.nav-center ul li {
+    display: inline;
+    float: none;
+}
+nav.nav-center ul li a {
+    display: inline-block;
 }
 
-.project-two {
-	grid-area: two;
+.text-justify {
+    text-align: justify;
 }
 
-.project-three {
-	grid-area: three;
+/*Home Specific*/
+.home-info {
+    color: white;
 }
 
-.contact-header {
-	grid-area: head;
-	font-size: 4vmax;
-	font-weight: bold;
+.designation {
+    margin: 0 auto;
 }
 
-.contact-mail {
-	grid-area: mail;
-	background-color: #e3e3e3;
-	height: 100%;
+/*About Specific*/
+.now-reading {
+    color: inherit;
+    text-decoration: underline;
+    text-decoration-style: dotted;
 }
 
-.contact-resume {
-	grid-area: resume;
-	background-color: #abcdef;
-	height: 100%;
-}
-
-.contact-github {
-	grid-area: github;
-	background-color: #767676;
-	height: 100%;
-}
-
-.contact-linkedin {
-	grid-area: linkedin;
-	background-color: #007bb6;
-	height: 100%;
-}
-
-/* End Wrappers */
-
-.icon {
-	max-width: 40%;
-}
-
-.icon:hover {
-	transform: rotate3d(0, 1, 0, 360deg);
-	transition: 2s;
-}
-
-.name {
-	font-size: 6vmax;
-}
-
-.name:hover {
-	background-color: #14A76C;
-	color: #272727;
-	transition: 0.5s;
-}
-
-.title {
-	font-size: 2vmax;
-}
-
-.about {
-	font-size: 1.75vmax;
-	padding: 10vmin;
-	text-align: justify;
-}
-
-.projects-text > a {
-	color: #14A76C;
-}
-
-.projects-text > a:hover {
-	background-color: #14A76C;
-	color: #272727;
-}
-
-.projects-text {
-	font-size: 1.75vmax;
-	padding: 10vmin 0 0 0;
-	text-align: center;
-}
-
-.projects {
-	display: grid;
-	grid-template-areas: "one two three";
-	justify-items: center;
-	grid-gap: 10px
-}
-
-.project-image {
-	border: 3px solid black;
-	border-radius: 10px;
-	width: 400px;
-	max-width: 100%;
-}
-
-.project-image:hover {
-	box-shadow: 0 0 10px rgba(33,33,33,.4); 
-}
-
-/* Helper Classes */
-
-.bold {
-	font-weight: 800;
-}
-
-.italic {
-	font-style: italic;
+/*Mobile*/
+@media screen and (max-width: 580px){
+    .break-on-mobile {
+        display: block;
+    }
 }
 
 
-/* Mobile Responsive Stuff */
+/* Easter Eggs. You have been warned. */
 
-@media screen and (max-width: 1386px) {
-	.project-image {
-		width: 250px;
-	}
-	
-	
-	.name {
-		font-size: 8vmax;
-	}
 
-	.title {
-		font-size: 3vmax;
-	}
-
-	.about {
-		font-size: 2.5vmax;
-	}
-
-	.projects-text {
-		font-size: 2.5vmax;
-	}
+.general-kenobi:after {
+	content: "Hello there."
 }
 
+.general-kenobi:hover:after {
+	content: "General Kenobi. You are a bold one."
+}
 
-@media screen and (max-width: 800px) {
-	
-	.wrapper {
-		grid-template-columns: 1fr;
-		grid-template-rows: 1fr;
-		grid-template-areas:
-			"name"
-			"about"
-			"projects"
-			"contact";
-		height: auto;
-	}
-	
-	.name {
-		font-size: 7vmax;
-	}
-	
-	.projects-wrapper {
-		grid-template-rows: 1fr 1.5fr;
-	}
-	
-	.project-image {
-		width: 150px;
-	}
-	
-	.contact-wrapper {
-		grid-template-areas:
-			"head head"
-			"mail resume"
-			"github linkedin";
-	}
+.coding:after {
+	content: "Coding is fun"
+}
+
+.coding:hover:after {
+	content: "OMG THIS IS AN AMAZING FEATURE. PURE CSS BOIIIIIIII"
+}
+
+.hint:after {
+	content: "easter eggs"
+}
+
+.hint:hover:after {
+	content: "(think of a site known for game reviews)"
+}
+
+.arjun:after{
+	content: "a friend"
+}
+
+.arjun:hover:after {
+	content: "a friend - thanks Arjun :P"
 }
