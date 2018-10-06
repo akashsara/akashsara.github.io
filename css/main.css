@@ -1,10 +1,7 @@
 body {
     text-align: center;
-    /*Credits to subtlepatterns.com for background
-    background: url('images/dark-triangles.png') black;*/
-	/*Background: https://www.pexels.com*/
-	background: url('images/bg.jpg') black;
-	background-position: center; 
+    /*Credits to subtlepatterns.com for background*/
+    background: url('images/darkness.png') black;
 }
 
 h1 {
@@ -12,7 +9,7 @@ h1 {
 }
 
 .page {
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .break-on-mobile {
@@ -22,6 +19,31 @@ h1 {
 .divider {
     height: 2px;
     background-color: white;
+}
+
+/*Navbar Stuff*/
+
+nav {
+	background-color: rgba(0,0,0,0.3);
+}
+
+.nav-item {
+	font-size: 2em;
+}
+
+/* 
+To center links in nav
+https://stackoverflow.com/questions/38964113/how-can-i-create-a-navbar-with-center-aligned-links-using-materialize 
+*/
+nav.nav-center ul {
+    text-align: center;
+}
+nav.nav-center ul li {
+    display: inline;
+    float: none;
+}
+nav.nav-center ul li a {
+    display: inline-block;
 }
 
 .text-justify {
@@ -49,4 +71,40 @@ h1 {
     .break-on-mobile {
         display: block;
     }
+}
+
+
+/* Easter Eggs. You have been warned. */
+
+
+.general-kenobi:after {
+	content: "Hello there."
+}
+
+.general-kenobi:hover:after {
+	content: "General Kenobi. You are a bold one."
+}
+
+.coding:after {
+	content: "Coding is fun"
+}
+
+.coding:hover:after {
+	content: "OMG THIS IS AN AMAZING FEATURE. PURE CSS BOIIIIIIII"
+}
+
+.hint:after {
+	content: "easter eggs"
+}
+
+.hint:hover:after {
+	content: "(think of a site known for game reviews)"
+}
+
+.arjun:after{
+	content: "a friend"
+}
+
+.arjun:hover:after {
+	content: "a friend - thanks Arjun :P"
 }
