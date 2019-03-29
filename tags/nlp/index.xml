@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Nlp on Akash Saravanan</title>
-    <link>akashsara.github.io/tags/nlp/</link>
+    <link>https://akashsara.github.io/tags/nlp.html</link>
     <description>Recent content in Nlp on Akash Saravanan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="akashsara.github.io/tags/nlp/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://akashsara.github.io/tags/nlp/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Reddit Comment Analysis Bot</title>
-      <link>akashsara.github.io/project/reddit-comment-analysis/</link>
+      <link>https://akashsara.github.io/project/reddit-comment-analysis.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>akashsara.github.io/project/reddit-comment-analysis/</guid>
+      <guid>https://akashsara.github.io/project/reddit-comment-analysis.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>WhatsApp Message Analyzer</title>
-      <link>akashsara.github.io/project/whatsapp-chat-analyzer/</link>
+      <link>https://akashsara.github.io/project/whatsapp-chat-analyzer.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>akashsara.github.io/project/whatsapp-chat-analyzer/</guid>
+      <guid>https://akashsara.github.io/project/whatsapp-chat-analyzer.html</guid>
       <description></description>
     </item>
     

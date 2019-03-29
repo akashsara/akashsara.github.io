@@ -2,65 +2,65 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Akash Saravanan</title>
-    <link>akashsara.github.io/</link>
+    <link>https://akashsara.github.io/</link>
     <description>Recent content on Akash Saravanan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="akashsara.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://akashsara.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>WhatsApp Message Analyzer</title>
-      <link>akashsara.github.io/project/whatsapp-chat-analyzer/</link>
+      <link>https://akashsara.github.io/project/whatsapp-chat-analyzer.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>akashsara.github.io/project/whatsapp-chat-analyzer/</guid>
+      <guid>https://akashsara.github.io/project/whatsapp-chat-analyzer.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>Reddit Comment Analysis Bot</title>
-      <link>akashsara.github.io/project/reddit-comment-analysis/</link>
+      <link>https://akashsara.github.io/project/reddit-comment-analysis.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>akashsara.github.io/project/reddit-comment-analysis/</guid>
+      <guid>https://akashsara.github.io/project/reddit-comment-analysis.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>Game of Life</title>
-      <link>akashsara.github.io/project/game-of-life/</link>
+      <link>https://akashsara.github.io/project/game-of-life.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>akashsara.github.io/project/game-of-life/</guid>
+      <guid>https://akashsara.github.io/project/game-of-life.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>Unbeatable Tic Tac Toe</title>
-      <link>akashsara.github.io/project/tictactoe/</link>
+      <link>https://akashsara.github.io/project/tictactoe.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>akashsara.github.io/project/tictactoe/</guid>
+      <guid>https://akashsara.github.io/project/tictactoe.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>Anna University Results Scraper/Analyzer</title>
-      <link>akashsara.github.io/project/au-results-scraper/</link>
+      <link>https://akashsara.github.io/project/au-results-scraper.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>akashsara.github.io/project/au-results-scraper/</guid>
+      <guid>https://akashsara.github.io/project/au-results-scraper.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>Facial Emotion Recognition Using Convolutional Neural Networks</title>
-      <link>akashsara.github.io/publication/facial-emotion/</link>
+      <link>https://akashsara.github.io/publication/facial-emotion.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>akashsara.github.io/publication/facial-emotion/</guid>
+      <guid>https://akashsara.github.io/publication/facial-emotion.html</guid>
       <description></description>
     </item>
     
