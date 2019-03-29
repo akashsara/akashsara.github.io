@@ -1,110 +1,100 @@
+html, body {
+    height: 100%;
+}
+
 body {
+    padding-top: 55px;
+    display: flex;
     text-align: center;
-    /*Credits to subtlepatterns.com for background*/
-    background: url('images/darkness.png') black;
+    flex-direction: column;
 }
 
-h1 {
-    margin-bottom: 0;
+main {
+    margin: auto;
+    padding: 25px;
+    flex: 1 0 auto;
+    max-width: 750px;
 }
 
-.page {
-    min-height: 100vh;
+/*footer*/
+
+.copyright {
+    margin: 15px 0;
 }
 
-.break-on-mobile {
-    display: none;
+/*home page*/
+
+.intro {
+    transform: translateY(22vh);
 }
 
-.divider {
-    height: 2px;
-    background-color: white;
+.intro > h1 {
+    color: #212121;
+    font-size: 12vh;
 }
 
-/*Navbar Stuff*/
-
-nav {
-	background-color: rgba(0,0,0,0.3);
+.intro > h2 {
+    color: #757575;
+    font-size: 3vmin;
 }
 
-.nav-item {
-	font-size: 2em;
+.intro > .profile {
+    width: 10vh;
+    height: 10vh;
+    border-radius: 50%;
 }
 
-/* 
-To center links in nav
-https://stackoverflow.com/questions/38964113/how-can-i-create-a-navbar-with-center-aligned-links-using-materialize 
-*/
-nav.nav-center ul {
-    text-align: center;
-}
-nav.nav-center ul li {
-    display: inline;
-    float: none;
-}
-nav.nav-center ul li a {
-    display: inline-block;
+/*apply accent colour to links*/
+
+a:link, a:visited {
+    color: var(--accent);
 }
 
-.text-justify {
-    text-align: justify;
+a.icon:hover {
+    text-decoration: none;
 }
 
-/*Home Specific*/
-.home-info {
-    color: white;
+a:hover {
+    color: var(--accent) !important;
 }
 
-.designation {
-    margin: 0 auto;
+/*paginator at bottom of list view*/
+
+.pages {
+    padding: 15px 0;
 }
 
-/*About Specific*/
-.now-reading {
-    color: inherit;
-    text-decoration: underline;
-    text-decoration-style: dotted;
+.pages-icon {
+    padding: 0 15px;
 }
 
-/*Mobile*/
-@media screen and (max-width: 580px){
-    .break-on-mobile {
-        display: block;
-    }
+/*list item for posts and projects*/
+
+.item {
+    padding: 10px 0;
 }
 
-
-/* Easter Eggs. You have been warned. */
-
-
-.general-kenobi:after {
-	content: "Hello there."
+.item-tag {
+    background-color: var(--accent);
 }
 
-.general-kenobi:hover:after {
-	content: "General Kenobi. You are a bold one."
+/*navigation bar icons*/
+
+.navbar-icon {
+    font-size: 125%;
+    display: inline-block !important;
 }
 
-.coding:after {
-	content: "Coding is fun"
+/*coloured borders at top and bottom of the page*/
+
+.navbar.navbar-default {
+    border-top: var(--border-width) solid var(--accent);
 }
 
-.coding:hover:after {
-	content: "OMG THIS IS AN AMAZING FEATURE. PURE CSS BOIIIIIIII"
+footer {
+    border-bottom: var(--border-width) solid var(--accent);
 }
 
-.hint:after {
-	content: "easter eggs"
-}
-
-.hint:hover:after {
-	content: "(think of a site known for game reviews)"
-}
-
-.arjun:after{
-	content: "a friend"
-}
-
-.arjun:hover:after {
-	content: "a friend - thanks Arjun :P"
+img {
+    max-width: 100%;
 }
