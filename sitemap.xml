@@ -3,6 +3,18 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://akashsara.github.io/research-work/ug-thesis/</loc>
+  </url>
+  
+  <url>
+    <loc>https://akashsara.github.io/project/ph7/</loc>
+  </url>
+  
+  <url>
+    <loc>https://akashsara.github.io/research-work/facial-emotion/</loc>
+  </url>
+  
+  <url>
     <loc>https://akashsara.github.io/project/whatsapp-chat-analyzer/</loc>
   </url>
   
@@ -53,7 +65,8 @@
   </url>
   
   <url>
-    <loc>https://akashsara.github.io/publication/facial-emotion/</loc>
+    <loc>https://akashsara.github.io/tags/flask/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -63,6 +76,16 @@
   
   <url>
     <loc>https://akashsara.github.io/tags/keras/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://akashsara.github.io/tags/natural-language-generation/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://akashsara.github.io/tags/natural-language-processing/</loc>
     <priority>0</priority>
   </url>
   
@@ -77,17 +100,17 @@
   </url>
   
   <url>
-    <loc>https://akashsara.github.io/publication/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://akashsara.github.io/tags/python/</loc>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://akashsara.github.io/tags/reddit-api/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://akashsara.github.io/research-work/</loc>
     <priority>0</priority>
   </url>
   
