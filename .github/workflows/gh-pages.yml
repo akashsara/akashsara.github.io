@@ -4,17 +4,24 @@ on:
     branches:
     - gh-pages
 jobs:
-  build:
+  build-and-deploy:
     runs-on: ubuntu-latest
+    
     steps:
     - uses: actions/checkout@master
-    - uses: jakejarvis/hugo-build-action@master
+    
+    - name: Setup Hugo
+      uses: peaceiris/actions-hugo@v2.2.2
       with:
-        args: --minify --buildDrafts
-    - name: Build and Deploy
-      uses: JamesIves/github-pages-deploy-action@master
+        hugo-version: 'latest'
+        extended: true
+        
+    - name: Build
+      run: hugo --minify --buildDrafts
+
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@v2.5.0
       env:
-        ACCESS_TOKEN: ${{ secrets. ACTIONS_DEPLOY_KEY }}
-        BASE_BRANCH: gh-pages # The branch the action should deploy from.
-        BRANCH: master # The branch the action should deploy to.
-        FOLDER: public # The folder the action should deploy.
+        ACTIONS_DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+        PUBLISH_BRANCH: master
+        PUBLISH_DIR: ./public
