@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Akash Saravanan </title>
+    <link>https://akashsara.github.io/projects/</link>
+    <description>Recent content in Projects on Akash Saravanan </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 02 Mar 2019 16:36:11 +0430</lastBuildDate>
+    
+	<atom:link href="https://akashsara.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>pH7</title>
+      <link>https://akashsara.github.io/projects/ph7/</link>
+      <pubDate>Sat, 02 Mar 2019 16:36:11 +0430</pubDate>
+      
+      <guid>https://akashsara.github.io/projects/ph7/</guid>
+      <description>What is it?: pH7 was intended to bring together people to form fitness-oriented communities. We developed a website and an app in order to demonstrate the proof of concept. The product functions as:
+ A competitive environment with leaderboards, scores and badges A social network with posts, comments and likes.  Features:  Dynamic Communities: A machine learning algorithm groups together users with similar psychological and fitness profiles. Community-wide tasks are issues for the users and they earn rewards upon completion.</description>
+    </item>
+    
+  </channel>
+</rss>

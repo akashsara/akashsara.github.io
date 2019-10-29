@@ -1,58 +1,117 @@
 baseURL = "https://akashsara.github.io/"
 languageCode = "en-us"
-title = "Akash Saravanan"
-theme = "minimal"
-disqusShortname = "" # delete this to disable disqus comments
+title = "Akash Saravanan "
+theme = "avicenna"
 googleAnalytics = "UA-137697069-1"
-publishDir = "public"
+timeout=3000
+publidhDir = "public"
 
 [params]
-    author = "Calin Tataru"
-    description = "Development. Research. Quizzing."
-    githubUsername = "akashsara"
-    accent = "#5757C7"
-    showBorder = false
-    backgroundColor = "#FBFDFE"
-    font = "Raleway" # should match the name on Google Fonts!
-    highlight = true
-    highlightStyle = "solarized-dark"
-    highlightLanguages = ["go", "haskell", "kotlin", "scala", "swift"]
+  subtitle= " Development. Research. Quizzing."
+  interests="I am primarily interested in the use of Artificial Intelligence in games. This includes both AI for beating and/or solving games as well as AI for making games. I am also interested in the use of deep learning for Natural Language Processing systems. I aim to use deep learning to understand and generate text. Emebddings and text representation is another area of interest."
+  cv_name= "Akash_Saravanan_CV.pdf"
+  # blog="http://myblog.edu"
 
-[[menu.main]]
-    url = "/"
-    name = "Home"
-    weight = 1
+[[params.affilation]]
+  name = "Mad Street Den (Vue.ai)"
+  position = "Engineering Trainee"
+  contact = "akashsara@outlook.com"
+    
+[[params.social]]
+  name = "GitHub"
+  icon = "github"
+  url = "https://github.com/akashsara"
 
-#[[menu.main]]
-#    url = "/post/"
-#    name = "Posts"
-#    weight = 2
+[[params.social]]
+  name = "Twitter"
+  icon = "twitter"
+  url = "https://twitter.com/akashsara"
 
-[[menu.main]]
-    url = "/Project/"
-    name = "Projects"
-    weight = 3
+
+[[params.social]]
+  name = "LinkedIn"
+  icon = "linkedin"
+  url = "https://linkedin.com/in/akashsara/"
+
+
+[[params.introduction.paragraph]]
+  text="""Hello there! I completed my Bachelor of Engineering in Computer Science & Engineering at Anna University (Sri Venkateswara College of Engineering). When I'm not occupied by research or development, I'm usually quizzing, reading or gaming (Both video and board!). I'm also a little proud of this card game that I made for a friend's birthday. We loved playing it so much that we're planning on making it commercial!
+   """
+
+[[params.publications]]
+  year="In Progress"
+
+  [[params.publications.paper]]
+    name = "Beating Battleship:  A Comprehensive Analysis"
+    authors = "__Akash Saravanan__"
+    dest = "Independent Research Project."
+    link = "publications/battleship"
+    code_link = ""
+    blog_link = ""
 	
-[[menu.main]]
-    url = "/Research/"
-    name = "Research"
-    weight = 4
+[[params.publications]]
+  year="2019"
+  
+  [[params.publications.paper]]
+    name = "Natural Language Generation using Generative Adversarial Networks"
+    authors = "__Akash Saravanan__, Gurudutt Perichetla, Akhil Menon, Sanoj C S"
+    dest = "Undegraduate Thesis, Sri Venkateswara College of Engineering, Anna University."
+	funding = "Intra-Mural Funding."
+	amount = "Rs. 10,000."
+    link = "publications/nlg-gan"
+    code_link = ""
+    blog_link = ""
 
-# Social icons to be shown on the right-hand side of the navigation bar
-# The "name" field should match the name of the icon to be used
-# The list of available icons can be found at http://fontawesome.io/icons/
+[[params.publications]]
+  year="2018"
 
-[[menu.icon]]
-    url = "mailto:akashsara@outlook.com"
-    name = "envelope-o"
-    weight = 1
+  [[params.publications.paper]]
+		name = "Facial Emotion Recognition using Convolutional Neural Networks"
+		authors = "__Akash Saravanan__, Gurudutt Perichetla, Dr. K. S. Gayathri"
+		dest = "AICV '18: International Symposium on Artificial Intelligence and Computer Vision, Chennai, India."
+		link = "https://arxiv.org/abs/1910.05602"
+		code_link = "https://github.com/akashsara/emotion-recognition"
+		blog_link = ""
+		
+[[params.projects]]
+ [[params.projects.project]]
+		name = "PokéGan"
+		description  = "PokéGAN is an exploratory project into Generative Adversarial Networks (GANs). GANs have been used to generate everything from human faces to anime characters to pose estimation and transforming zebras to horses. This one is focused on generating new Pokémon from video game sprites."
+		project_page = "https://github.com/akashsara/pokeGAN"
+		code_link = "https://github.com/akashsara/pokeGAN"
+		blog_link = ""
+		
+ [[params.projects.project]]
+		name = "pH7"
+		description  = "ph7 is a dynamic social platform that provides users with personalized health care in a gamified manner. Developed as our team's (Zero Gravity Developers) submission for the grand finale of Smart India Hackathon 2019."
+		project_page = "projects/ph7/"
+		code_link = ""
+		blog_link = ""
 
-[[menu.icon]]
-    url = "https://github.com/akashsara/"
-    name = "github"
-    weight = 2
-
-[[menu.icon]]
-    url = "https://www.linkedin.com/in/akashsara/"
-    name = "linkedin"
-    weight = 3
+ [[params.projects.project]]
+		name = "WhatsApp Message Analyzer"
+		description  = "Developed a Python script to analyze a WhatsApp group chat and generate statistics on user activity, frequent words etc."
+		project_page = "https://github.com/akashsara/whatsapp-message-analysis/"
+		code_link = "https://github.com/akashsara/whatsapp-message-analysis/"
+		blog_link = ""
+		
+ [[params.projects.project]]
+		name = "Reddit Comment Analysis Bot"
+		description  = "Designed a Reddit bot that analyzes a user’s comment history and displays a graph of their most used words and their most active subreddits."
+		project_page = "https://www.reddit.com/user/lansbot"
+		code_link = "https://github.com/akashsara/reddit-comment-analysis-bot/"
+		blog_link = ""
+		
+ [[params.projects.project]]
+		name = "Game of Life"
+		description  = "Implemented a fully functional version of the cellular automaton, Conway's Game of Life."
+		project_page = "https://github.com/akashsara/game-of-life/"
+		code_link = "https://github.com/akashsara/game-of-life/"
+		blog_link = ""
+		
+ [[params.projects.project]]
+		name = "Unbeatable Tic Tac Toe"
+		description  = "Created an unbeatable version of Tic Tac Toe that uses the Minimax algorithm."
+		project_page = "https://sharp-mccarthy-f4f1b7.netlify.com/tictactoe/index.html"
+		code_link = "https://github.com/akashsara/fcc-front-end/tree/master/TicTacToe/"
+		blog_link = ""
