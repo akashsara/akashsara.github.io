@@ -30,7 +30,8 @@ For an overview of the game itself and past approaches to solving it (and also t
       
       <guid>https://akashsara.github.io/publications/nlg-gan/</guid>
       <description>Performed a comparative study of existing text generation methodologies and established a baseline performance using different models. Each model was trained on:
- ”Alice in Wonderland” ”The Adventures of Sherlock Holmes”  The models we utilized for training included:
+ ”Alice in Wonderland” ”The Adventures of Sherlock Holmes”
+  The models we utilized for training included:
  Classic LSTM Networks. A Sequence-to-Sequence Model using LSTMs &amp;amp; GRUs. A Transformer with Attention.  Developed a novel Generative Adversarial Network (GAN) using an LSTM generator and a fully connected discriminator.</description>
     </item>
     
@@ -41,7 +42,7 @@ For an overview of the game itself and past approaches to solving it (and also t
       
       <guid>https://akashsara.github.io/projects/ph7/</guid>
       <description>What is it?: pH7 was intended to bring together people to form fitness-oriented communities. We developed a website and an app in order to demonstrate the proof of concept. The product functions as:
- A competitive environment with leaderboards, scores and badges A social network with posts, comments and likes.  Features:   Dynamic Communities: A machine learning algorithm groups together users with similar psychological and fitness profiles. Community-wide tasks are issues for the users and they earn rewards upon completion.</description>
+ A competitive environment with leaderboards, scores and badges A social network with posts, comments and likes.  Features:  Dynamic Communities: A machine learning algorithm groups together users with similar psychological and fitness profiles. Community-wide tasks are issues for the users and they earn rewards upon completion.</description>
     </item>
     
   </channel>
