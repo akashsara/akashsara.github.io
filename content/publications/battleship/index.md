@@ -1,6 +1,7 @@
 ---
 title: "Beating Battleship: A Comprehensive Analysis"
 date: 2019-10-27T16:36:11+04:30
+draft: false
 ---
 
 It aims to be a complete study on the strategy game of Battleship.  I generated 1,000,000 different board positions to test algorithms on.  
