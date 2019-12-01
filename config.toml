@@ -8,7 +8,7 @@ publidhDir = "public"
 
 [params]
   subtitle= " Development. Research. Quizzing."
-  interests="I am primarily interested in Natural Language Processing (NLP) and Artificial Intelligence (AI). I aim to use deep learning ot understand, represent and generate text. I am also interested in the application of NLP and AI in video games and social computing. This includes interactive narrative systems, AI for beating and/or solving games and using NLP to understand online communities."
+  interests="I am primarily interested in Natural Language Processing (NLP) and Artificial Intelligence (AI). I aim to use deep learning to understand, represent and generate text. I am also interested in the application of NLP and AI in video games and social computing. This includes interactive narrative systems, AI for beating and/or solving games and using NLP to understand online communities."
   cv_name= "Akash_Saravanan_CV.pdf"
   # blog="http://myblog.edu"
 
