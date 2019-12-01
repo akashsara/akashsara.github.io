@@ -1,8 +1,8 @@
----
-title: "Natural Language Generation using Generative Adversarial Networks"
-date: 2019-05-01T16:36:11+04:30
-draft: false
----
++++
+title = "Natural Language Generation using Generative Adversarial Networks"
+date = 2019-05-01T16:36:11+04:30
+draft = false
++++
 
 Performed a comparative study of existing text generation methodologies and established a baseline performance using different models.
 Each model was trained on:
