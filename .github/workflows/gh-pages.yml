@@ -11,7 +11,7 @@ jobs:
     - uses: actions/checkout@master
     
     - name: Setup Hugo
-      uses: peaceiris/actions-hugo@v2.2.2
+      uses: peaceiris/actions-hugo@v2.4.3
       with:
         hugo-version: '0.59.1'
         extended: true
