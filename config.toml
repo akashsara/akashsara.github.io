@@ -7,15 +7,15 @@ timeout=3000
 publidhDir = "public"
 
 [params]
-  subtitle= "NLP @ Mad Street Den"
-  interests="Natural Language Processing (NLP) and Artificial Intelligence (AI). I am primarily interested in text generation and algorithms to better represent text and its underlying semantics. I am also interested in the application of NLP and AI in video games and social computing. These include AI for computational creativity, interactive narrative systems, and using NLP to understand and support online communities."
+  subtitle= "CS Grad Student @ University of Alberta"
+  interests="Artificial Intelligence (AI) for games & Natural Language Processing (NLP)."
   cv_name= "Akash_Saravanan_CV.pdf"
   # blog="http://myblog.edu"
 
 [[params.affilation]]
-  name = "Mad Street Den (Vue.ai)"
-  position = "Machine Learning Engineer"
-  contact = "akashsara@outlook.com"
+  name = "University of Alberta"
+  position = "MSc. in Computing Science (Thesis)"
+  contact = "akash.saravanan@ualberta.ca"
     
 [[params.social]]
   name = "GitHub"
@@ -35,19 +35,19 @@ publidhDir = "public"
 
 
 [[params.introduction.paragraph]]
-  text="""Hello there! I completed my Bachelor of Engineering in Computer Science & Engineering at Anna University (Sri Venkateswara College of Engineering). When I'm not occupied by research or development, I'm usually quizzing, reading or gaming (Both video and board!). I'm also a little proud of this card game that I made for a friend's birthday. We loved playing it so much that we're planning on making it commercial!
+  text="""Hello there! I'm a graduate student in the CS department at the University of Alberta. Previously, I worked as a Machine Learning Engineer at Mad Street Den, building Natural Language Processing (NLP) systems for intelligent retail automation. When I'm not occupied by research, development or both, you can find me reading fantasy novels, quizzing or gaming (Both video and board games!).
    """
 
-[[params.publications]]
-  year="In Progress"
-
-  [[params.publications.paper]]
-    name = "Beating Battleship:  A Comprehensive Analysis"
-    authors = "__Akash Saravanan__"
-    dest = "Independent Research Project."
-    link = "publications/battleship"
-    code_link = ""
-    blog_link = ""
+#[[params.publications]]
+#  year="In Progress"
+#
+#  [[params.publications.paper]]
+#    name = "Beating Battleship:  A Comprehensive Analysis"
+#    authors = "__Akash Saravanan__"
+#    dest = "Independent Research Project."
+#    link = "publications/battleship"
+#    code_link = ""
+#    blog_link = ""
 	
 [[params.publications]]
   year="2019"
