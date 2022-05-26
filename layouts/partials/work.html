@@ -1,0 +1,37 @@
+<div class="introduction">
+	{{ with .Site.Params.work }}
+	<h4>Work Experience</h4>
+
+	{{- range $index, $work := $.Site.Params.work -}}
+	<ul>
+	{{ range $elem_index, $work := $work.company }}
+		<li>
+			{{ if $work.name_url }}
+			<a href="{{ $work.name_url }}" class="publications"> <b> {{ $work.name }} </b> </a> ({{ $work.start_year }} - {{ $work.end_year }})
+			{{ else }}
+			<p class="publications">  <b> {{ $work.name }}  </b> ({{ $work.start_year }} - {{ $work.end_year }})</p>
+			{{ end }}
+			
+			<span class="collaborators">
+				{{ $work.role | markdownify }}
+			</span>
+			
+			<ul>
+			{{ range $work := $work.description }}
+			<li class="project_description">
+				{{ . | markdownify}}
+			</li>
+			{{ end }}
+			</ul>
+			
+			{{ if ($work.tech_stack) }}
+			<span class="collaborators">
+				Tools & Technologies: {{ $work.tech_stack | markdownify }}
+			</span>
+			{{ end }}
+		</li>
+	{{ end }}
+	</ul>
+	{{- end -}}
+	{{- end -}}
+</div>

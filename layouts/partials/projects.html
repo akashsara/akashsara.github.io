@@ -1,12 +1,16 @@
 <div class="introduction">
 	{{ with .Site.Params.projects }}
-	<h4>Projects</h4>
+	<h4>Selected Projects</h4>
 	<ul>
 		{{- range $index, $projects_map := $.Site.Params.projects -}}
 
 		{{ range $elem_index, $project := $projects_map.project }}
 		<li>
-			<a href="{{ $project.project_page }}" class="project"> {{ $project.name }}</a>
+			{{ if $project.project_page }}
+			<a href="{{ $project.project_page }}" class="project"> <b> {{ $project.name }} </b></a>
+			{{ else }}
+			<p class="project"> <b> {{ $project.name }} </b></p>
+			{{ end }}
 
 			{{ if or ($project.code_link) ($project.blog_link) }}
 			<span class="code_blog">
@@ -23,6 +27,12 @@
 			{{ with $project.description }}
 			<span class="project_description">
 				{{ . | markdownify}}
+			</span>
+			{{ end }}
+			
+			{{ if ($project.tech_stack) }}
+			<span class="collaborators">
+				Tools & Technologies: {{ $project.tech_stack | markdownify }}
 			</span>
 			{{ end }}
 

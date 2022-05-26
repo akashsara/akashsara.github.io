@@ -1,6 +1,6 @@
 <div class="introduction">
 	{{ with .Site.Params.publications }}
-	<h4>Research</h4>
+	<h4>Publications</h4>
 
 	{{- range $index, $publications := $.Site.Params.publications -}}
 	<div class="year">{{ $publications.year }}</div>
@@ -9,10 +9,15 @@
 		{{ range $elem_index, $publication := $publications.paper }}
 		<li>
 			{{ if $publication.link }}
-			<a href="{{ $publication.link }}" class="publications"> {{ $publication.name }}</a>
+			<a href="{{ $publication.link }}" class="publications"> <b> {{ $publication.name }} </b></a>
 			{{ else }}
-			<p class="publications"> {{ $publication.name }}</p>
+			<p class="publications"> <b> {{ $publication.name }} </b></p>
 			{{ end }}
+			
+			<span class="collaborators">
+				{{ $publication.authors | markdownify }}
+			</span>
+			
 			<span class="collaborators">
 				{{ $publication.dest | markdownify }}
 			</span>
@@ -28,15 +33,12 @@
 				{{ end }}
 			</span>
 			{{ end }}
-
-			<span class="collaborators">
-				{{ $publication.authors | markdownify }}
-			</span>
 			
 			{{ if $publication.funding }}
 			<span class="collaborators">
-				Grant Source: {{ $publication.funding | markdownify }}
+				Funding Source: {{ $publication.funding | markdownify }}
 			</span>
+			
 			<span class="collaborators">
 				Funding Amount: {{ $publication.amount | markdownify }}
 			</span>

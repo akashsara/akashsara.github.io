@@ -8,7 +8,7 @@ publidhDir = "public"
 
 [params]
   subtitle= "CS Grad Student @ University of Alberta"
-  interests="Artificial Intelligence (AI) for games & Natural Language Processing (NLP)."
+  interests="Artificial Intelligence (AI) for Games. Natural Language Processing (NLP). Reinforcement Learning."
   cv_name= "Akash_Saravanan_CV.pdf"
   # blog="http://myblog.edu"
 
@@ -35,8 +35,10 @@ publidhDir = "public"
 
 
 [[params.introduction.paragraph]]
-  text="""Hello there! I'm a graduate student in the CS department at the University of Alberta. Previously, I worked as a Machine Learning Engineer at Mad Street Den, building Natural Language Processing (NLP) systems for intelligent retail automation. When I'm not occupied by research, development or both, you can find me reading fantasy novels, quizzing or gaming (Both video and board games!).
-   """
+  text="""Hello there! I'm a graduate student in the CS department at the University of Alberta. I work with Dr. Matthew Guzdial on computational creativity, specifically by using AI for video games.  Previously, I worked as a Machine Learning Engineer at Mad Street Den, building Natural Language Processing (NLP) systems for intelligent retail automation. 
+  
+  I am seeking __full-time__ work opportunities for after my graduation in late 2022/early 2023. Specifically, I am looking for roles within machine learning and data science, with a preference to work in natural language processing.
+  """
 
 #[[params.publications]]
 #  year="In Progress"
@@ -48,6 +50,74 @@ publidhDir = "public"
 #    link = "publications/battleship"
 #    code_link = ""
 #    blog_link = ""
+
+[[params.work]]
+	
+  [[params.work.company]]
+    name = "University of Alberta"
+	name_url = "http://guzdial.com/grail-lab/"
+	role = "Graduate Research Assistantship Fellowship (GRAF)"
+	start_year = "May 2021"
+	end_year = "Present"
+	tech_stack = "Python, PyTorch, Tensorflow"
+	description = [
+	"Working with Dr. Matthew Guzdial on computational creativity via AI for games.",
+	"Meta Discovery for Video Game Character Balance: Working on a reinforcement learning system to balance new video game characters by identifying and analyzing the current competitive metagame environment.",
+	"Pixel Art Representation: Developed a novel approach to learn powerful embeddings of pixel art using neural networks. Demonstrated the effectiveness of these embeddings on multiple downstream tasks.",
+	]
+	
+  [[params.work.company]]
+    name = "University of Alberta"
+	role = "Graduate Teaching Assistant"
+	start_year = "January 2022"
+	end_year = "April 2022"
+	description = [
+	"Aided Dr. Matthew Guzdial on CMPUT 296: Game AI. Duties included grading quizzes, resolving doubts and weekly office hours.",
+	]
+	
+  [[params.work.company]]
+    name = "Mad Street Den"
+	name_url = "https://www.madstreetden.com/"
+	role = "Machine Learning Engineer"
+	start_year = "August 2019"
+	end_year = "November 2020"
+	tech_stack = "Python, AWS, GCP, SQL, SQLite PyTorch, Tensorflow, Keras, Javascript"
+	description = [
+	"Developed new products using machine learning techniques including natural language processing and computer vision as part of the Minimum Viable Product (MVP) team. Created an end-to-end proof-of-concept to demonstrate the company’s tagging capabilities on any supported retail item.",
+	"Ideated, developed and deployed models on AWS and GCP. Upgraded existing rule-based classification engines with machine learning algorithms to boost key metrics by 15%. Optimized the codebase to reduce latency by over 40% across the board.",
+	"Developed a Sequence-to-Sequence model for automated generation of product descriptions. Created a Named Entity Recognition system to identify key tags in new client catalog data using transformer models."
+	]
+	
+  [[params.work.company]]
+    name = "Mad Street Den"
+	name_url = "https://www.madstreetden.com/"
+	role = "Engineering Intern"
+	start_year = "May 2019"
+	end_year = "August 2019"
+	tech_stack = "Python, AWS, PyTorch"
+	description = [
+	"Developed and implemented customized versions of Pointwise Mutual Information (NPMI) and TF-IDF to identify and extract important keywords across different categories and clients over 37 million retail products. Implemented Word2Vec on a catalog of 2 million products.",
+	]
+	
+[[params.publications]]
+  year="2022"
+  
+  [[params.publications.paper]]
+    name = "Pixel VQ-VAEs for Improved Pixel Art Representation"
+    authors = "__Akash Saravanan__, Matthew Guzdial"
+    dest = "Under review at AIIDE 2022."
+    link = "https://arxiv.org/abs/2203.12130"
+    code_link = "https://github.com/akashsara/fusion-dance"
+    blog_link = ""
+
+#  [[params.publications.paper]]
+#    name = "FineDeb: A Debiased Finetuning Approach for Language Models"
+#    authors = "__Akash Saravanan__, Dhruv Mullick, Habibur Rahman, Nidhi Hegde, "
+#    dest = "Under review at EMNLP 2022."
+#    link = ""
+#    code_link = "https://github.com/akashsara/debiasing-language-models"
+#    blog_link = ""
+
 	
 [[params.publications]]
   year="2019"
@@ -57,10 +127,10 @@ publidhDir = "public"
     authors = "__Akash Saravanan__, Gurudutt Perichetla, Akhil Menon, Sanoj C S"
     dest = "Undegraduate Thesis, Sri Venkateswara College of Engineering, Anna University."
 	funding = "Intra-Mural Funding."
-	amount = "Rs. 10,000."
-    link = "publications/nlg-gan"
+	amount = "INR 10,000."
+    link = ""
     code_link = ""
-    blog_link = ""
+    blog_link = "publications/nlg-gan"
 
 [[params.publications]]
   year="2018"
@@ -74,12 +144,14 @@ publidhDir = "public"
 		blog_link = ""
 		
 [[params.projects]]
+
  [[params.projects.project]]
-		name = "PokéGan"
-		description  = "PokéGAN is an exploratory project into Generative Adversarial Networks (GANs). GANs have been used to generate everything from human faces to anime characters to pose estimation and transforming zebras to horses. This one is focused on generating new Pokémon from video game sprites."
-		project_page = "https://github.com/akashsara/pokeGAN"
-		code_link = "https://github.com/akashsara/pokeGAN"
+		name = "Homebrew Helper"
+		description  = "Homebrew Helper is a Discord bot designed to assist in online role-playing games such as Dungeons and Dragons. It is still in-progress with multiple features planned, but presently supports setting up of characters local to each server and some basic commands to manipualte the characters. It also has a full-fledged dice rolling system. "
+		project_page = ""
+		code_link = "https://github.com/akashsara/homebrew_helper/"
 		blog_link = ""
+		tech_stack = "Python, MongoDB"
 		
  [[params.projects.project]]
 		name = "pH7"
@@ -87,13 +159,15 @@ publidhDir = "public"
 		project_page = "projects/ph7/"
 		code_link = ""
 		blog_link = ""
+		tech_stack = "Python, Keras, Flask, Scrapy, SQLite."
 
  [[params.projects.project]]
 		name = "WhatsApp Message Analyzer"
 		description  = "Developed a Python script to analyze a WhatsApp group chat and generate statistics on user activity, frequent words etc."
-		project_page = "https://github.com/akashsara/whatsapp-message-analysis/"
+		project_page = ""
 		code_link = "https://github.com/akashsara/whatsapp-message-analysis/"
 		blog_link = ""
+		tech_stack = "Python."
 		
  [[params.projects.project]]
 		name = "Reddit Comment Analysis Bot"
@@ -101,17 +175,19 @@ publidhDir = "public"
 		project_page = "https://www.reddit.com/user/lansbot"
 		code_link = "https://github.com/akashsara/reddit-comment-analysis-bot/"
 		blog_link = ""
-		
- [[params.projects.project]]
-		name = "Game of Life"
-		description  = "Implemented a fully functional version of the cellular automaton, Conway's Game of Life."
-		project_page = "https://github.com/akashsara/game-of-life/"
-		code_link = "https://github.com/akashsara/game-of-life/"
-		blog_link = ""
-		
- [[params.projects.project]]
-		name = "Unbeatable Tic Tac Toe"
-		description  = "Created an unbeatable version of Tic Tac Toe that uses the Minimax algorithm."
-		project_page = "https://sharp-mccarthy-f4f1b7.netlify.com/tictactoe/index.html"
-		code_link = "https://github.com/akashsara/fcc-front-end/tree/master/TicTacToe/"
-		blog_link = ""
+		tech_stack = "Python, Reddit API (PRAW)."
+				
+# [[params.projects.project]]
+#		name = "Unbeatable Tic Tac Toe"
+#		description  = "Created an unbeatable version of Tic Tac Toe that uses the Minimax algorithm."
+#		project_page = "https://sharp-mccarthy-f4f1b7.netlify.com/tictactoe/index.html"
+#		code_link = "https://github.com/akashsara/fcc-front-end/tree/master/TicTacToe/"
+#		blog_link = ""
+
+
+# [[params.projects.project]]
+#		name = "PokéGan"
+#		description  = "PokéGAN is an exploratory project into Generative Adversarial Networks (GANs). GANs have been used to generate everything from human faces to anime characters to pose estimation and transforming zebras to horses. This one is focused on generating new Pokémon from video game sprites."
+#		project_page = ""
+#		code_link = "https://github.com/akashsara/pokeGAN"
+#		blog_link = ""
