@@ -100,7 +100,7 @@ publidhDir = "public"
 	]
 	
 [[params.publications]]
-  year="2022"
+#  year="2022"
   
 #  [[params.publications.paper]]
 #    name = "Pixel VQ-VAEs for Improved Pixel Art Representation"
