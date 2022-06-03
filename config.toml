@@ -2,7 +2,7 @@ baseURL = "https://akashsara.github.io/"
 languageCode = "en-us"
 title = "Akash Saravanan "
 theme = "avicenna"
-googleAnalytics = "G-LZCDC9165Z"
+googleAnalytics = "UA-137697069-1"
 timeout=3000
 publidhDir = "public"
 
@@ -156,9 +156,9 @@ publidhDir = "public"
  [[params.projects.project]]
 		name = "pH7"
 		description  = "ph7 is a dynamic social platform that provides users with personalized health care in a gamified manner. Developed as our team's (Zero Gravity Developers) submission for the grand finale of Smart India Hackathon 2019."
-		project_page = "projects/ph7/"
+		project_page = ""
 		code_link = ""
-		blog_link = ""
+		blog_link = "projects/ph7/"
 		tech_stack = "Python, Keras, Flask, Scrapy, SQLite."
 
  [[params.projects.project]]
@@ -172,9 +172,9 @@ publidhDir = "public"
  [[params.projects.project]]
 		name = "Reddit Comment Analysis Bot"
 		description  = "Designed a Reddit bot that analyzes a user’s comment history and displays a graph of their most used words and their most active subreddits."
-		project_page = "https://www.reddit.com/user/lansbot"
+		project_page = ""
 		code_link = "https://github.com/akashsara/reddit-comment-analysis-bot/"
-		blog_link = ""
+		blog_link = "https://www.reddit.com/user/lansbot"
 		tech_stack = "Python, Reddit API (PRAW)."
 				
 # [[params.projects.project]]
