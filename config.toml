@@ -2,7 +2,7 @@ baseURL = "https://akashsara.github.io/"
 languageCode = "en-us"
 title = "Akash Saravanan "
 theme = "avicenna"
-googleAnalytics = "UA-137697069-1"
+googleAnalytics = "G-LZCDC9165Z"
 timeout=3000
 publidhDir = "public"
 
@@ -102,13 +102,13 @@ publidhDir = "public"
 [[params.publications]]
   year="2022"
   
-  [[params.publications.paper]]
-    name = "Pixel VQ-VAEs for Improved Pixel Art Representation"
-    authors = "__Akash Saravanan__, Matthew Guzdial"
-    dest = "Under review at AIIDE 2022."
-    link = "https://arxiv.org/abs/2203.12130"
-    code_link = "https://github.com/akashsara/fusion-dance"
-    blog_link = ""
+#  [[params.publications.paper]]
+#    name = "Pixel VQ-VAEs for Improved Pixel Art Representation"
+#    authors = "__Akash Saravanan__, Matthew Guzdial"
+#    dest = "Under review at AIIDE 2022."
+#    link = "https://arxiv.org/abs/2203.12130"
+#    code_link = "https://github.com/akashsara/fusion-dance"
+#    blog_link = ""
 
 #  [[params.publications.paper]]
 #    name = "FineDeb: A Debiased Finetuning Approach for Language Models"
