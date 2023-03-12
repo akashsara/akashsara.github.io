@@ -1,6 +1,6 @@
 {{ define "main" }}
 
-{{ $projectLogo := "logo.png" | printf "%s%s" .Dir }}
+{{ $projectLogo := "logo.png" | printf "%s%s" .File.Dir }}
 
 {{ if fileExists $projectLogo -}}
 <div class="header">
