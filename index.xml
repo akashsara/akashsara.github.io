@@ -1,49 +1,8 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Akash Saravanan </title>
-    <link>https://akashsara.github.io/</link>
-    <description>Recent content on Akash Saravanan </description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sun, 27 Oct 2019 16:36:11 +0430</lastBuildDate>
-    
-	<atom:link href="https://akashsara.github.io/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Beating Battleship: A Comprehensive Analysis</title>
-      <link>https://akashsara.github.io/publications/battleship/</link>
-      <pubDate>Sun, 27 Oct 2019 16:36:11 +0430</pubDate>
-      
-      <guid>https://akashsara.github.io/publications/battleship/</guid>
-      <description>It aims to be a complete study on the strategy game of Battleship. I generated 1,000,000 different board positions to test algorithms on.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Akash Saravanan</title><link>https://akashsara.github.io/</link><description>Recent content on Akash Saravanan</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 27 Oct 2019 16:36:11 +0430</lastBuildDate><atom:link href="https://akashsara.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Beating Battleship: A Comprehensive Analysis</title><link>https://akashsara.github.io/publications/battleship/</link><pubDate>Sun, 27 Oct 2019 16:36:11 +0430</pubDate><guid>https://akashsara.github.io/publications/battleship/</guid><description>It aims to be a complete study on the strategy game of Battleship. I generated 1,000,000 different board positions to test algorithms on.
 Currently experimenting with 4 broad algorithms:
- Random Parity-based Probability-based (including Monte Carlo simulations) Reinforcement Learning.  Each algorithm is further augmented with heuristics &amp;amp;randomness when applicable.
-For an overview of the game itself and past approaches to solving it (and also the current best one), check out this Data Genetics blog.</description>
-    </item>
-    
-    <item>
-      <title>Natural Language Generation using Generative Adversarial Networks</title>
-      <link>https://akashsara.github.io/publications/nlg-gan/</link>
-      <pubDate>Wed, 01 May 2019 16:36:11 +0430</pubDate>
-      
-      <guid>https://akashsara.github.io/publications/nlg-gan/</guid>
-      <description>Performed a comparative study of existing text generation methodologies and established a baseline performance using different models. Each model was trained on:
- ”Alice in Wonderland” ”The Adventures of Sherlock Holmes”
-  The models we utilized for training included:
- Classic LSTM Networks. A Sequence-to-Sequence Model using LSTMs &amp;amp; GRUs. A Transformer with Attention.  Developed a novel Generative Adversarial Network (GAN) using an LSTM generator and a fully connected discriminator.</description>
-    </item>
-    
-    <item>
-      <title>pH7</title>
-      <link>https://akashsara.github.io/projects/ph7/</link>
-      <pubDate>Sat, 02 Mar 2019 16:36:11 +0430</pubDate>
-      
-      <guid>https://akashsara.github.io/projects/ph7/</guid>
-      <description>What is it?: pH7 was intended to bring together people to form fitness-oriented communities. We developed a website and an app in order to demonstrate the proof of concept. The product functions as:
- A competitive environment with leaderboards, scores and badges A social network with posts, comments and likes.  Features:  Dynamic Communities: A machine learning algorithm groups together users with similar psychological and fitness profiles. Community-wide tasks are issues for the users and they earn rewards upon completion.</description>
-    </item>
-    
-  </channel>
-</rss>
+Random Parity-based Probability-based (including Monte Carlo simulations) Reinforcement Learning. Each algorithm is further augmented with heuristics &amp;amp;randomness when applicable.
+For an overview of the game itself and past approaches to solving it (and also the current best one), check out this Data Genetics blog.</description></item><item><title>Natural Language Generation using Generative Adversarial Networks</title><link>https://akashsara.github.io/publications/nlg-gan/</link><pubDate>Wed, 01 May 2019 16:36:11 +0430</pubDate><guid>https://akashsara.github.io/publications/nlg-gan/</guid><description>Performed a comparative study of existing text generation methodologies and established a baseline performance using different models. Each model was trained on:
+”Alice in Wonderland” ”The Adventures of Sherlock Holmes” The models we utilized for training included:
+Classic LSTM Networks. A Sequence-to-Sequence Model using LSTMs &amp;amp; GRUs. A Transformer with Attention. Developed a novel Generative Adversarial Network (GAN) using an LSTM generator and a fully connected discriminator.
+While the network generated coherent sentences, sequence models and transformers retained the best performance</description></item><item><title>pH7</title><link>https://akashsara.github.io/projects/ph7/</link><pubDate>Sat, 02 Mar 2019 16:36:11 +0430</pubDate><guid>https://akashsara.github.io/projects/ph7/</guid><description>What is it?: pH7 was intended to bring together people to form fitness-oriented communities. We developed a website and an app in order to demonstrate the proof of concept. The product functions as:
+A competitive environment with leaderboards, scores and badges A social network with posts, comments and likes. Features: Dynamic Communities: A machine learning algorithm groups together users with similar psychological and fitness profiles. Community-wide tasks are issues for the users and they earn rewards upon completion.</description></item></channel></rss>
