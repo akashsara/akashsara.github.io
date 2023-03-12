@@ -1,6 +1,6 @@
 +++
 title = "Visualizing Characters and Evaluating their Balance in Competitive Video Games"
-date = 2023-03-12T16:36:11+04:30
+date = 2023-03-12T03:17:06-06:00
 draft = false
 +++
 
