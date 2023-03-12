@@ -7,15 +7,15 @@ timeout=3000
 publidhDir = "public"
 
 [params]
-  subtitle= "CS Grad Student @ University of Alberta"
-  interests="Artificial Intelligence (AI) for Games. Natural Language Processing (NLP). Reinforcement Learning."
+  subtitle= "Applied Research Scientist"
+  interests="Artificial Intelligence (AI) for Games. Natural Language Processing (NLP)."
   cv_name= "Akash_Saravanan_CV.pdf"
   # blog="http://myblog.edu"
 
 [[params.affilation]]
-  name = "University of Alberta"
-  position = "MSc. in Computing Science (Thesis)"
-  contact = "akash.saravanan@ualberta.ca"
+  name = "Georgian Partners"
+  position = "Applied Research Scientist"
+  contact = "akashsara@outlook.com"
     
 [[params.social]]
   name = "GitHub"
@@ -35,9 +35,11 @@ publidhDir = "public"
 
 
 [[params.introduction.paragraph]]
-  text="""Hello there! I'm a graduate student in the CS department at the University of Alberta. I work with Dr. Matthew Guzdial on computational creativity, specifically by using AI for video games.  Previously, I worked as a Machine Learning Engineer at Mad Street Den, building Natural Language Processing (NLP) systems for intelligent retail automation. 
+  text="""Hello there! I'm Akash, a machine learning generalist with 2 years of professional work experience in production environments and a further 2 years of academic research experience. I have primarily worked on natural language processing (NLP), computer vision (CV) and representation learning. In addition, I have also utilized reinforcement learning and graph machine learning for various purposes during my career. I'm comfortable with all of PyTorch, Tensorflow, keras and Scikit-learn and have meaningful experience with AWS and GCP. Furthermore, I'm familiar with both SQL and NoSQL databases.
   
-  I am seeking __full-time__ work opportunities for after my graduation in late 2022/early 2023. Specifically, I am looking for roles within machine learning and data science, with a preference to work in natural language processing.
+  Bundle of keywords aside, I currently work at Georgian as an Applied Research Scientist where I help companies build their ML systems. Prior to this, I completed my Master's degree at the University of Alberta under the fantastic supervision of Dr. Matthew Guzdial. My research focused on computational creativity, specifically on AI for video games. Before that, I worked as a Machine Learning Engineer at Mad Street Den where I built natural language processing systems for intelligent retail automation. 
+  
+  I'm passionate about building products and am actively looking for roles in all areas of machine learning. Please reach out to me if you are hiring, or, if you just want to chat!
   """
 
 #[[params.publications]]
@@ -52,28 +54,42 @@ publidhDir = "public"
 #    blog_link = ""
 
 [[params.work]]
-	
+		
+  [[params.work.company]]
+    name = "Georgian Partners"
+	name_url = "georgian.io/"
+	role = "Applied Research Scientist"
+	start_year = "January 2023"
+	end_year = "Present"
+	tech_stack = "Python, PyTorch, Pytorch Geometric, Tranformers, GCP, Git"
+	description = [
+	"Utilized graph-based machine learning techniques for applied research projects.",
+	"Upgraded a two year old multimodal machine learning toolkit to support latest libraries.",
+	"Developed a framework to preprocess & combine different text-to-speech (TTS) datasets.",
+	]
+
   [[params.work.company]]
     name = "University of Alberta"
 	name_url = "http://guzdial.com/grail-lab/"
 	role = "Graduate Research Assistantship Fellowship (GRAF)"
 	start_year = "May 2021"
-	end_year = "Present"
+	end_year = "December 2022"
 	tech_stack = "Python, PyTorch, Tensorflow"
 	description = [
-	"Working with Dr. Matthew Guzdial on computational creativity via AI for games.",
-	"Meta Discovery for Video Game Character Balance: Working on a reinforcement learning system to balance new video game characters by identifying and analyzing the current competitive metagame environment.",
-	"Pixel Art Representation: Developed a novel approach to learn powerful embeddings of pixel art using neural networks. Demonstrated the effectiveness of these embeddings on multiple downstream tasks.",
+	"Worked with Dr. Matthew Guzdial on computational creativity via AI for video games.",
+	"Meta Discovery for Video Game Character Balance: Worked on a reinforcement learning system to balance new video game characters by identifying and analyzing the current competitive metagame environment.",
+	"Pixel Art Representation: Developed the Pixel VQ-VAE, a computer vision model for learning pixel art embeddings. Further demonstrated its effectiveness in image generation & transformation.",
+	"Debiasing Language Models: Worked in a team of 3 to develop a novel method to strongly debias pretrained language models while still maintaining performance.",
 	]
 	
-  [[params.work.company]]
-    name = "University of Alberta"
-	role = "Graduate Teaching Assistant"
-	start_year = "January 2022"
-	end_year = "April 2022"
-	description = [
-	"Aided Dr. Matthew Guzdial on CMPUT 296: Game AI. Duties included grading quizzes, resolving doubts and weekly office hours.",
-	]
+#  [[params.work.company]]
+#    name = "University of Alberta"
+#	role = "Graduate Teaching Assistant"
+#	start_year = "January 2022"
+#	end_year = "April 2022"
+#	description = [
+#	"Aided Dr. Matthew Guzdial on CMPUT 296: Game AI. Duties included grading quizzes, resolving doubts and weekly office hours.",
+#	]
 	
   [[params.work.company]]
     name = "Mad Street Den"
@@ -96,29 +112,49 @@ publidhDir = "public"
 	end_year = "August 2019"
 	tech_stack = "Python, AWS, PyTorch"
 	description = [
-	"Developed and implemented customized versions of Pointwise Mutual Information (NPMI) and TF-IDF to identify and extract important keywords across different categories and clients over 37 million retail products. Implemented Word2Vec on a catalog of 2 million products.",
+	"Extracted important keywords from 37 million retail products using a custom algorithm that combined Pointwise Mutual Information (NPMI) and TF-IDF.",
+	"Implemented Word2Vec over 2 million retail product descriptions.",
 	]
 	
 [[params.publications]]
-#  year="2022"
-  
-#  [[params.publications.paper]]
-#    name = "Pixel VQ-VAEs for Improved Pixel Art Representation"
-#    authors = "__Akash Saravanan__, Matthew Guzdial"
-#    dest = "Under review at AIIDE 2022."
-#    link = "https://arxiv.org/abs/2203.12130"
-#    code_link = "https://github.com/akashsara/fusion-dance"
-#    blog_link = ""
+  year="2023"
 
-#  [[params.publications.paper]]
-#    name = "FineDeb: A Debiased Finetuning Approach for Language Models"
-#    authors = "__Akash Saravanan__, Dhruv Mullick, Habibur Rahman, Nidhi Hegde, "
-#    dest = "Under review at EMNLP 2022."
-#    link = ""
-#    code_link = "https://github.com/akashsara/debiasing-language-models"
-#    blog_link = ""
+  [[params.publications.paper]]
+    name = "FineDeb: A Debiased Finetuning Approach for Language Models"
+    authors = "__Akash Saravanan__, Dhruv Mullick, Habibur Rahman, Nidhi Hegde"
+    dest = "Presented at the AI4SG Workshop at AAAI 2023"
+    link = "https://arxiv.org/abs/2302.02453"
+    code_link = "https://github.com/akashsara/debiasing-language-models"
+    blog_link = ""
+
+  [[params.publications.paper]]
+	name = "Visualizing Characters and Evaluating their Balance in Competitive Video Games"
+	authors = "__Akash Saravanan__"
+    dest = "Masters Thesis, University of Alberta."
+    link = ""
+    code_link = ""
+    blog_link = "publications/msc-thesis"
 
 	
+  [[params.publications.paper]]
+	name = "Evaluating Video Game Character Balance through Meta Discovery"
+	authors = "__Akash Saravanan__, Matthew Guzdial"
+    dest = "In Progress"
+    link = ""
+    code_link = "github.com/akashsara/meta-discovery"
+    blog_link = ""
+
+[[params.publications]]
+  year="2022"
+  
+  [[params.publications.paper]]
+    name = "Pixel VQ-VAEs for Improved Pixel Art Representation"
+    authors = "__Akash Saravanan__, Matthew Guzdial"
+    dest = "Presented at the EXAG Workshop at AIIDE 2022."
+    link = "https://arxiv.org/abs/2203.12130"
+    code_link = "https://github.com/akashsara/fusion-dance"
+    blog_link = ""
+
 [[params.publications]]
   year="2019"
   
@@ -147,7 +183,7 @@ publidhDir = "public"
 
  [[params.projects.project]]
 		name = "Homebrew Helper"
-		description  = "Homebrew Helper is a Discord bot designed to assist in online role-playing games such as Dungeons and Dragons. It is still in-progress with multiple features planned, but presently supports setting up of characters local to each server and some basic commands to manipualte the characters. It also has a full-fledged dice rolling system. "
+		description  = "Homebrew Helper is a Discord bot designed to assist in online role-playing games such as Dungeons and Dragons. It is still in-progress with multiple features planned, but presently supports setting up of characters local to each server and some basic commands to manipulate the characters. It also has a full-fledged dice rolling system. The bot is connected to a NoSQL database (MongoDB) to store per-server character information."
 		project_page = ""
 		code_link = "https://github.com/akashsara/homebrew_helper/"
 		blog_link = ""
@@ -177,12 +213,12 @@ publidhDir = "public"
 		blog_link = "https://www.reddit.com/user/lansbot"
 		tech_stack = "Python, Reddit API (PRAW)."
 				
-# [[params.projects.project]]
-#		name = "Unbeatable Tic Tac Toe"
-#		description  = "Created an unbeatable version of Tic Tac Toe that uses the Minimax algorithm."
-#		project_page = "https://sharp-mccarthy-f4f1b7.netlify.com/tictactoe/index.html"
-#		code_link = "https://github.com/akashsara/fcc-front-end/tree/master/TicTacToe/"
-#		blog_link = ""
+ [[params.projects.project]]
+		name = "Unbeatable Tic Tac Toe"
+		description  = "Created an unbeatable version of Tic Tac Toe that uses the Minimax algorithm."
+		project_page = "https://sharp-mccarthy-f4f1b7.netlify.com/tictactoe/index.html"
+		code_link = "https://github.com/akashsara/fcc-front-end/tree/master/TicTacToe/"
+		blog_link = ""
 
 
 # [[params.projects.project]]
