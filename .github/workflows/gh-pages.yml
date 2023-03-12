@@ -13,7 +13,7 @@ jobs:
     - name: Setup Hugo
       uses: peaceiris/actions-hugo@v2.4.3
       with:
-        hugo-version: '0.59.1'
+        hugo-version: '0.111'
         extended: true
       env:
         ACTIONS_ALLOW_UNSECURE_COMMANDS: true
