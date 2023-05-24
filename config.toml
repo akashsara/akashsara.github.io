@@ -7,14 +7,14 @@ timeout=3000
 publidhDir = "public"
 
 [params]
-  subtitle= "Applied Research Scientist"
+  subtitle= "Machine Learning Generalist"
   interests="Artificial Intelligence (AI) for Games. Natural Language Processing (NLP)."
   cv_name= "Akash_Saravanan_CV.pdf"
   # blog="http://myblog.edu"
 
 [[params.affilation]]
   name = "Georgian Partners"
-  position = "Applied Research Scientist"
+  position = "Applied Research Intern"
   contact = "akashsara@outlook.com"
     
 [[params.social]]
@@ -37,7 +37,7 @@ publidhDir = "public"
 [[params.introduction.paragraph]]
   text="""Hello there! I'm Akash, a machine learning generalist with 2 years of professional work experience in production environments and a further 2 years of academic research experience. I have primarily worked on natural language processing (NLP), computer vision (CV) and representation learning. In addition, I have also utilized reinforcement learning and graph machine learning for various purposes during my career. I'm comfortable with all of PyTorch, Tensorflow, keras and Scikit-learn and have meaningful experience with AWS and GCP. Furthermore, I'm familiar with both SQL and NoSQL databases.
   
-  Bundle of keywords aside, I currently work at Georgian as an Applied Research Scientist where I help companies build their ML systems. Prior to this, I completed my Master's degree at the University of Alberta under the fantastic supervision of Dr. Matthew Guzdial. My research focused on computational creativity, specifically on AI for video games. Before that, I worked as a Machine Learning Engineer at Mad Street Den where I built natural language processing systems for intelligent retail automation. 
+  Bundle of keywords aside, I currently work at Georgian as an Applied Research Intern where I help companies build their ML systems. Prior to this, I completed my Master's degree at the University of Alberta under the fantastic supervision of Dr. Matthew Guzdial. My research focused on computational creativity, specifically on AI for video games. Before that, I worked as a Machine Learning Engineer at Mad Street Den where I built natural language processing systems for intelligent retail automation. 
   
   I'm passionate about building products and am actively looking for roles in all areas of machine learning. Please reach out to me if you are hiring, or, if you just want to chat!
   """
@@ -58,14 +58,14 @@ publidhDir = "public"
   [[params.work.company]]
     name = "Georgian Partners"
 	name_url = "georgian.io/"
-	role = "Applied Research Scientist"
+	role = "Applied Research Intern"
 	start_year = "January 2023"
 	end_year = "Present"
 	tech_stack = "Python, PyTorch, Pytorch Geometric, Tranformers, GCP, Git"
 	description = [
-	"Utilized graph-based machine learning techniques for applied research projects.",
-	"Upgraded a two year old multimodal machine learning toolkit to support latest libraries.",
-	"Developed a framework to preprocess & combine different text-to-speech (TTS) datasets.",
+	"Developed ChatGPT-like models using Reinforcement Learning from Human Feedback (RLHF).",
+	"Led applied research on analyzing 34M blockchain transactions using graph ML and analytical techniques.",
+	"Upgraded a two year old multi-modal machine learning toolkit to support current versions.",
 	]
 
   [[params.work.company]]
