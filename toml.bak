@@ -1,0 +1,234 @@
+baseURL = "https://akashsara.github.io/"
+languageCode = "en-us"
+title = "Akash Saravanan "
+theme = "avicenna"
+googleAnalytics = "UA-137697069-1"
+timeout=3000
+publidhDir = "public"
+
+[params]
+  subtitle= "Machine Learning Scientist"
+  interests="Artificial Intelligence (AI) for Games, Natural Language Processing (NLP), Large Language Models (LLMs)."
+  cv_name= "Akash_Saravanan_CV.pdf"
+  # blog="http://myblog.edu"
+
+[[params.affilation]]
+  name = "Georgian"
+  position = "Machine Learning Scientist"
+  contact = "akashsara@outlook.com"
+    
+[[params.social]]
+  name = "GitHub"
+  icon = "github"
+  url = "https://github.com/akashsara"
+
+[[params.social]]
+  name = "Twitter"
+  icon = "twitter"
+  url = "https://twitter.com/akashsara"
+
+
+[[params.social]]
+  name = "LinkedIn"
+  icon = "linkedin"
+  url = "https://linkedin.com/in/akashsara/"
+
+
+[[params.introduction.paragraph]]
+  text="""Hello there, I'm Akash. I work on applied machine learning problems. Currently, this centers around LLMs and NLP, specifically, solving problems using a mixture of RAG, Fine-Tuning, Prompting, and Alignment (RLHF). In the past, I have worked on other areas including computer vision, representation learning, reinforcement learning, and graph machine learning problems. 
+  
+  My work has spanned across different domains including insurance, retail, video games, and blockchain. Within these domains, I have worked on problems including entity extraction, chatbots, classification, summarization, image generation, video game simulations, regression, and graph analytics. As a result of this broad experience, I'm comfortable with most machine learning frameworks (such as PyTorch and Tensorflow), multiple cloud platforms (AWS and GCP), and several types of databases (including SQL, NoSQL, and vector databases). For more specific information, refer to my resume linked on this page.
+  
+   Just so that this page isn't purely tech stuff: I enjoy football (or soccer to some folks), trivia, and fantasy/sci-fi media including books, video games, movies, TV, anime, and manga. In the spirit of fun, here are some recommendations for each of those that I've consumed in the last year or so - Red Rising, The Talos Principle 2, Palm Springs, Scavengers Reign, Vinland Saga, and One Piece. 
+  
+  I'm passionate about solving interesting problems in underexplored domains. Please reach out to me if you want to chat!
+  """
+
+#[[params.publications]]
+#  year="In Progress"
+#
+#  [[params.publications.paper]]
+#    name = "Beating Battleship:  A Comprehensive Analysis"
+#    authors = "__Akash Saravanan__"
+#    dest = "Independent Research Project."
+#    link = "publications/battleship"
+#    code_link = ""
+#    blog_link = ""
+
+[[params.work]]
+			
+  [[params.work.company]]
+    name = "Georgian"
+	name_url = "georgian.io/"
+	role = "Machine Learning Scientist, Applied Research Intern (Jan-Dec 2023)"
+	start_year = "January 2023"
+	end_year = "Present"
+	tech_stack = "Python, LangChain, PyTorch, Transformers, LLMs (GPT, Mistral, LLaMa, Gemini, Claude), Vector DBs (Chroma, Pinecone, LanceDB), GCP, AWS, Git, Pytorch Geometric"
+	description = [
+	"Led applied AI projects using LLMs for information extraction, RAG-based chatbots, and lead classification. Additionally led analytics projects for 34M+ blockchain transactions and insurance quoting models.",
+	"Developed solutions for applied AI problems using fine-tuning, RAG, prompting, and text-to-SQL.",
+	"Benchmarked vector DBs for large datasets, and LLM performance for edge computing and information extraction.",
+	"Created a [public repository](https://github.com/georgian-io/GAL) containing guides & tutorials for LLM reasoning, retrieval-augmented generation (RAG), model alignment, image-to-text models and text-to-image (diffusion) models.",
+	"[Developed](https://github.com/georgian-io/genai-bootcamp) and led tutorials on prompt engineering, RAG, and RLHF (LLM Alignment) for GenAI Bootcamps attended by 36+ startups resulting in 7+ POCs.",
+	"Primary maintainer of [Multimodal Toolkit](https://github.com/georgian-io/Multimodal-Toolkit): Refactored the codebase, added tests, new features, and resolved 30+ issues."
+	]
+
+  [[params.work.company]]
+    name = "University of Alberta"
+	name_url = "http://guzdial.com/grail-lab/"
+	role = "Graduate Research Assistantship Fellowship (GRAF)"
+	start_year = "May 2021"
+	end_year = "December 2022"
+	tech_stack = "Python, PyTorch, Tensorflow"
+	description = [
+	"Worked with Dr. Matthew Guzdial on computational creativity via AI for video games.",
+	"Meta Discovery for Video Game Character Balance: Worked on a reinforcement learning system to balance new video game characters by identifying and analyzing the current competitive metagame environment.",
+	"Pixel Art Representation: Developed the Pixel VQ-VAE, a computer vision model for learning pixel art embeddings. Further demonstrated its effectiveness in image generation & transformation.",
+	"Debiasing Language Models: Worked in a team of 3 to develop a novel method to strongly debias pretrained language models while still maintaining performance.",
+	]
+	
+#  [[params.work.company]]
+#    name = "University of Alberta"
+#	role = "Graduate Teaching Assistant"
+#	start_year = "January 2022"
+#	end_year = "April 2022"
+#	description = [
+#	"Aided Dr. Matthew Guzdial on CMPUT 296: Game AI. Duties included grading quizzes, resolving doubts and weekly office hours.",
+#	]
+	
+  [[params.work.company]]
+    name = "Mad Street Den"
+	name_url = "https://www.madstreetden.com/"
+	role = "Machine Learning Engineer"
+	start_year = "August 2019"
+	end_year = "November 2020"
+	tech_stack = "Python, AWS, GCP, SQL, SQLite PyTorch, Tensorflow, Keras, Javascript"
+	description = [
+	"Developed new products using machine learning techniques including natural language processing and computer vision as part of the Minimum Viable Product (MVP) team. Created an end-to-end proof-of-concept to demonstrate the company’s tagging capabilities on any supported retail item.",
+	"Ideated, developed and deployed models on AWS and GCP. Upgraded existing rule-based classification engines with machine learning algorithms to boost key metrics by 15%. Optimized the codebase to reduce latency by over 40% across the board.",
+	"Developed a Sequence-to-Sequence model for automated generation of product descriptions. Created a Named Entity Recognition system to identify key tags in new client catalog data using transformer models."
+	]
+	
+  [[params.work.company]]
+    name = "Mad Street Den"
+	name_url = "https://www.madstreetden.com/"
+	role = "Engineering Intern"
+	start_year = "May 2019"
+	end_year = "August 2019"
+	tech_stack = "Python, AWS, PyTorch"
+	description = [
+	"Extracted important keywords from 37 million retail products using a custom algorithm that combined Pointwise Mutual Information (NPMI) and TF-IDF.",
+	"Implemented Word2Vec over 2 million retail product descriptions.",
+	]
+	
+[[params.publications]]
+  year="2023"
+
+  [[params.publications.paper]]
+    name = "FineDeb: A Debiased Finetuning Approach for Language Models"
+    authors = "__Akash Saravanan__, Dhruv Mullick, Habibur Rahman, Nidhi Hegde"
+    dest = "Presented at the AI4SG Workshop at AAAI 2023"
+    link = "https://arxiv.org/abs/2302.02453"
+    code_link = "https://github.com/akashsara/debiasing-language-models"
+    blog_link = ""
+
+  [[params.publications.paper]]
+	name = "Visualizing Characters and Evaluating their Balance in Competitive Video Games"
+	authors = "__Akash Saravanan__"
+    dest = "Masters Thesis, University of Alberta."
+    link = ""
+    code_link = ""
+    blog_link = "publications/msc-thesis"
+
+	
+  [[params.publications.paper]]
+	name = "Evaluating Video Game Character Balance through Meta Discovery"
+	authors = "__Akash Saravanan__, Matthew Guzdial"
+    dest = "In Progress"
+    link = ""
+    code_link = "github.com/akashsara/meta-discovery"
+    blog_link = ""
+
+[[params.publications]]
+  year="2022"
+  
+  [[params.publications.paper]]
+    name = "Pixel VQ-VAEs for Improved Pixel Art Representation"
+    authors = "__Akash Saravanan__, Matthew Guzdial"
+    dest = "Presented at the EXAG Workshop at AIIDE 2022."
+    link = "https://arxiv.org/abs/2203.12130"
+    code_link = "https://github.com/akashsara/fusion-dance"
+    blog_link = ""
+
+[[params.publications]]
+  year="2019"
+  
+  [[params.publications.paper]]
+    name = "Natural Language Generation using Generative Adversarial Networks"
+    authors = "__Akash Saravanan__, Gurudutt Perichetla, Akhil Menon, Sanoj C S"
+    dest = "Undegraduate Thesis, Sri Venkateswara College of Engineering, Anna University."
+	funding = "Intra-Mural Funding."
+	amount = "INR 10,000."
+    link = ""
+    code_link = ""
+    blog_link = "publications/nlg-gan"
+
+[[params.publications]]
+  year="2018"
+
+  [[params.publications.paper]]
+		name = "Facial Emotion Recognition using Convolutional Neural Networks"
+		authors = "__Akash Saravanan__, Gurudutt Perichetla, Dr. K. S. Gayathri"
+		dest = "AICV '18: International Symposium on Artificial Intelligence and Computer Vision, Chennai, India."
+		link = "https://arxiv.org/abs/1910.05602"
+		code_link = "https://github.com/akashsara/emotion-recognition"
+		blog_link = ""
+		
+[[params.projects]]
+
+ [[params.projects.project]]
+		name = "Homebrew Helper"
+		description  = "Homebrew Helper is a Discord bot designed to assist in online role-playing games such as Dungeons and Dragons. It is still in-progress with multiple features planned, but presently supports setting up of characters local to each server and some basic commands to manipulate the characters. It also has a full-fledged dice rolling system. The bot is connected to a NoSQL database (MongoDB) to store per-server character information."
+		project_page = ""
+		code_link = "https://github.com/akashsara/homebrew_helper/"
+		blog_link = ""
+		tech_stack = "Python, MongoDB"
+		
+ [[params.projects.project]]
+		name = "pH7"
+		description  = "ph7 is a dynamic social platform that provides users with personalized health care in a gamified manner. Developed as our team's (Zero Gravity Developers) submission for the grand finale of Smart India Hackathon 2019."
+		project_page = ""
+		code_link = ""
+		blog_link = "projects/ph7/"
+		tech_stack = "Python, Keras, Flask, Scrapy, SQLite."
+
+ [[params.projects.project]]
+		name = "WhatsApp Message Analyzer"
+		description  = "Developed a Python script to analyze a WhatsApp group chat and generate statistics on user activity, frequent words etc."
+		project_page = ""
+		code_link = "https://github.com/akashsara/whatsapp-message-analysis/"
+		blog_link = ""
+		tech_stack = "Python."
+		
+ [[params.projects.project]]
+		name = "Reddit Comment Analysis Bot"
+		description  = "Designed a Reddit bot that analyzes a user’s comment history and displays a graph of their most used words and their most active subreddits."
+		project_page = ""
+		code_link = "https://github.com/akashsara/reddit-comment-analysis-bot/"
+		blog_link = "https://www.reddit.com/user/lansbot"
+		tech_stack = "Python, Reddit API (PRAW)."
+				
+ [[params.projects.project]]
+		name = "Unbeatable Tic Tac Toe"
+		description  = "Created an unbeatable version of Tic Tac Toe that uses the Minimax algorithm."
+		project_page = "https://sharp-mccarthy-f4f1b7.netlify.com/tictactoe/index.html"
+		code_link = "https://github.com/akashsara/fcc-front-end/tree/master/TicTacToe/"
+		blog_link = ""
+
+
+# [[params.projects.project]]
+#		name = "PokéGan"
+#		description  = "PokéGAN is an exploratory project into Generative Adversarial Networks (GANs). GANs have been used to generate everything from human faces to anime characters to pose estimation and transforming zebras to horses. This one is focused on generating new Pokémon from video game sprites."
+#		project_page = ""
+#		code_link = "https://github.com/akashsara/pokeGAN"
+#		blog_link = ""
