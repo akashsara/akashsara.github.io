@@ -35,11 +35,13 @@ publidhDir = "public"
 
 
 [[params.introduction.paragraph]]
-  text="""Hello there, I'm Akash. I work on applied machine learning problems. Currently, this centers around LLMs and NLP, specifically, solving problems using a mixture of RAG, Fine-Tuning, Prompting, and Alignment (RLHF). In the past, I have worked on other areas including computer vision, representation learning, reinforcement learning, and graph machine learning problems. 
-  
-  My work has spanned across different domains including insurance, retail, video games, and blockchain. Within these domains, I have worked on problems including entity extraction, chatbots, classification, summarization, image generation, video game simulations, regression, and graph analytics. As a result of this broad experience, I'm comfortable with most machine learning frameworks (such as PyTorch and Tensorflow), multiple cloud platforms (AWS and GCP), and several types of databases (including SQL, NoSQL, and vector databases). For more specific information, refer to my resume linked on this page.
-  
-   Just so that this page isn't purely tech stuff: I enjoy football (or soccer to some folks), trivia, and fantasy/sci-fi media including books, video games, movies, TV, anime, and manga. In the spirit of fun, here are some recommendations for each of those that I've consumed in the last year or so - Red Rising, The Talos Principle 2, Palm Springs, Scavengers Reign, Vinland Saga, and One Piece. 
-  
-  I'm passionate about solving interesting problems in underexplored domains. Please reach out to me if you want to chat!
+  text="""Hello there! I’m Akash, a problem solver specializing in machine learning.
+
+  My current work revolves around leveraging Large Language Models (LLMs) and Natural Language Processing (NLP) techniques, including Retrieval Augmented Generation (RAG), fine-tuning, and advanced prompting strategies. Over the years, I’ve explored a wide range of fields, such as graph machine learning, computer vision, representation learning, and reinforcement learning, applying these skills across industries like insurance, retail, education, healthcare, manufacturing, human resources, video games, and blockchain.
+
+  With hands-on experience in Python (and some JavaScript), I’m adept with frameworks like PyTorch, Tensorflow and scikit-learn, and cloud services such as AWS and GCP. I’m equally comfortable with different database systems — SQL, NoSQL, and vector databases. If you're curious about specific projects I’ve worked on, feel free to check out my resume linked on this page and/or send me a message on LinkedIn.
+
+  Outside of machine learning, I’m passionate about football (soccer), fantasy/sci-fi media, and random trivia. I love sharing recommendations, so: The Stormlight Archive (book series), The Talos Principle 2 (video game), Delicious in Dungeon (anime), Game Changer (game show), and Bullet Train (movie) are some recent highlights.
+
+  Let’s connect if you’re interested in collaborating, or if you know of exciting opportunities — I’m actively looking for new roles and ready to tackle unique challenges!
   """
